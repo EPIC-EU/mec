@@ -353,7 +353,7 @@ function attachEventToSendInviteLink() {
         event.preventDefault();
 
         const $clickedLink = $(event.currentTarget);
-        const messageText = 'Usually, there is no need to use this feature because TEAMMATES sends an automatic '
+        const messageText = 'Usually, there is no need to use this feature because MEC sends an automatic '
                 + 'invite to students at the opening time of each session. Send a join request anyway?';
         const okCallback = function okCallback() {
             $.get($clickedLink.attr('href'), () => {

@@ -5,28 +5,28 @@
       "name": "Teammates Demo Instr",
       "isInstructor": true,
       "email": "CCAddUiTest.instructor@gmail.tmt",
-      "institute": "TEAMMATES Test Institute with Long Long Long Name"
+      "institute": "MEC Test Institute with Long Long Long Name"
     },
     "OtherInstructorWithCourses": {
       "googleId": "CCAddUiTest.instr1",
       "name": "Teammates Demo Instr 1",
       "isInstructor": true,
       "email": "CCAddUiTest.instr1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute with Long Long Long Name"
+      "institute": "MEC Test Institute with Long Long Long Name"
     },
     "instructorWithoutCourses": {
       "googleId": "CCAddUiTest.instr2",
       "name": "Teammates Demo Instr 2",
       "isInstructor": true,
       "email": "CCAddUiTest.instr2@gmail.tmt",
-      "institute": "TEAMMATES Test Institute with Long Long Long Name"
+      "institute": "MEC Test Institute with Long Long Long Name"
     },
     "OtherInstructorWithoutCourses": {
       "googleId": "CCAddUiTest.instr3",
       "name": "Teammates Demo Instr 3",
       "isInstructor": true,
       "email": "CCAddUiTest.instr3@gmail.tmt",
-      "institute": "TEAMMATES Test Institute with Long Long Long Name"
+      "institute": "MEC Test Institute with Long Long Long Name"
     }
   },
   "courses": {

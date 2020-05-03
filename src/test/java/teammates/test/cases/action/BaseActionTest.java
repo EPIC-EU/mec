@@ -139,7 +139,7 @@ public abstract class BaseActionTest extends BaseComponentTestCase {
         return new String[] {
                 Const.ParamsNames.STUDENT_SHORT_NAME, "short ",
                 Const.ParamsNames.STUDENT_PROFILE_EMAIL, "e@email.com  ",
-                Const.ParamsNames.STUDENT_PROFILE_INSTITUTION, " TEAMMATES Test Institute 5   ",
+                Const.ParamsNames.STUDENT_PROFILE_INSTITUTION, " MEC Test Institute 5   ",
                 Const.ParamsNames.STUDENT_NATIONALITY, "American",
                 Const.ParamsNames.STUDENT_GENDER, "  other   ",
                 Const.ParamsNames.STUDENT_PROFILE_MOREINFO, "   This is more info on me   ",

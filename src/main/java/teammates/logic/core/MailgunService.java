@@ -56,10 +56,11 @@ public class MailgunService extends EmailSenderService {
     @Override
     public EmailSendingStatus sendEmail(EmailWrapper wrapper) {
         try (FormDataMultiPart email = parseToEmail(wrapper)) {
+            log.severe("Creating client in mailgun mail service !!! ");
             Client client = Client.create();
             client.addFilter(new HTTPBasicAuthFilter("api", Config.MAILGUN_APIKEY));
             WebResource webResource =
-                    client.resource("https://api.mailgun.net/v3/" + Config.MAILGUN_DOMAINNAME + "/messages");
+                    client.resource("https://api.eu.mailgun.net/v3/" + Config.MAILGUN_DOMAINNAME + "/messages");
 
             ClientResponse response = webResource.type(MediaType.MULTIPART_FORM_DATA_TYPE)
                     .post(ClientResponse.class, email);

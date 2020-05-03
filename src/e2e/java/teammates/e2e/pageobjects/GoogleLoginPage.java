@@ -87,10 +87,10 @@ public class GoogleLoginPage extends LoginPage {
     }
 
     private void waitForRedirectIfAny() {
-        String loginRedirectUrl = TestProperties.TEAMMATES_URL + "/_ah/conflogin";
+        String loginRedirectUrl = TestProperties.MEC_URL + "/_ah/conflogin";
         waitFor(d -> {
             String url = Preconditions.checkNotNull(d).getCurrentUrl();
-            boolean isTeammatesPage = url.startsWith(TestProperties.TEAMMATES_URL) && !url.startsWith(loginRedirectUrl);
+            boolean isTeammatesPage = url.startsWith(TestProperties.MEC_URL) && !url.startsWith(loginRedirectUrl);
             boolean isApprovalPage = d.getPageSource().contains(EXPECTED_SNIPPET_APPROVAL);
             return isTeammatesPage || isApprovalPage;
         });

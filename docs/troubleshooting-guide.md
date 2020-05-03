@@ -1,6 +1,6 @@
 # Developer Troubleshooting Guide
 
-This document can help you to fix the common problems encountered while contributing to TEAMMATES.
+This document can help you to fix the common problems encountered while contributing to MEC.
 Note that some of the screenshots might be outdated, but the instructions will remain the same and all necessary modifications will be explained.
 
 * [Troubleshooting project setup](#troubleshooting-project-setup)
@@ -46,7 +46,7 @@ Note that some of the screenshots might be outdated, but the instructions will r
 
 * **ERROR**: A handful of failed test cases (< 10).
 
-  **SOLUTION**: Re-run the failed tests with TestNG, all test cases should pass eventually (it may take a few runs). If there are tests that persistently fail and not addressed in other parts of this guide, you may [request for help in the issue tracker](https://github.com/TEAMMATES/teammates/issues/new?template=help-request.md).
+  **SOLUTION**: Re-run the failed tests with TestNG, all test cases should pass eventually (it may take a few runs). If there are tests that persistently fail and not addressed in other parts of this guide, you may [request for help in the issue tracker](https://github.com/MEC/teammates/issues/new?template=help-request.md).
 
 * **ERROR**: Tests fail due to accented characters.
 
@@ -62,4 +62,4 @@ Note that some of the screenshots might be outdated, but the instructions will r
 
 ## Submitting help request
 
-If none of the items in this guide helps with the problem you face, you can [post in the issue tracker](https://github.com/TEAMMATES/teammates/issues/new?template=help-request.md) to request for help. Remember to supply as much relevant information as possible when requesting for help.
+If none of the items in this guide helps with the problem you face, you can [post in the issue tracker](https://github.com/MEC/teammates/issues/new?template=help-request.md) to request for help. Remember to supply as much relevant information as possible when requesting for help.

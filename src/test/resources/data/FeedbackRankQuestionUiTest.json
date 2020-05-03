@@ -5,28 +5,28 @@
       "name": "Teammates Test",
       "isInstructor": true,
       "email": "tmms.test@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructorhelper": {
       "googleId": "FRankUiT.helper",
       "name": "Teammates Helper",
       "isInstructor": true,
       "email": "tmms.helper@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "alice.tmms": {
       "googleId": "FRankUiT.alice.tmms",
       "name": "Alice Betsy",
       "isInstructor": false,
       "email": "alice.b.tmms@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "benny.c.tmms": {
       "googleId": "FRankUiT.benny.tmms",
       "name": "Benny Charles",
       "isInstructor": false,
       "email": "benny.c.tmms@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {

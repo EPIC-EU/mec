@@ -31,8 +31,8 @@ This document lines out the common terms used in the project.
 
 ## Development-related
 
-+ [**Main repo**](https://github.com/TEAMMATES/teammates): The repository containing the latest stable code.
-+ [**Ops repo**](https://github.com/TEAMMATES/teammates-ops): The repository containing maintenance and operations-specific information.
++ [**Main repo**](https://github.com/MEC/teammates): The repository containing the latest stable code.
++ [**Ops repo**](https://github.com/MEC/teammates-ops): The repository containing maintenance and operations-specific information.
 + **Specs**: System Specification.
 
 `* server`:

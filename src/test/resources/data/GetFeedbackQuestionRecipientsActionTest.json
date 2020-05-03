@@ -5,91 +5,91 @@
       "name": "Instructor 1 of Course 1",
       "isInstructor": true,
       "email": "instr1@course1.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructor2OfCourse1": {
       "googleId": "idOfInstructor2OfCourse1",
       "name": "Instructor 2 of Course 1",
       "isInstructor": true,
       "email": "instr2@course1.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "helperOfCourse1": {
       "googleId": "idOfHelperOfCourse1",
       "name": "Helper of Course 1",
       "isInstructor": true,
       "email": "helper@course1.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructor1OfCourse2": {
       "googleId": "idOfInstructor1OfCourse2",
       "name": "Instructor 1 of Course 2",
       "isInstructor": true,
       "email": "instr1@course2.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructor2OfCourse2": {
       "googleId": "idOfInstructor2OfCourse2",
       "name": "Instructor 2 of Course 2",
       "isInstructor": true,
       "email": "instr2@course2.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructor1OfCourse3": {
       "googleId": "idOfInstructor1OfCourse3",
       "name": "Instructor 1 of Course 3",
       "isInstructor": true,
       "email": "instr1@course3.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructor2OfCourse3": {
       "googleId": "idOfInstructor2OfCourse3",
       "name": "Instructor 2 of Course 3",
       "isInstructor": true,
       "email": "instr2@course3.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructor3": {
       "googleId": "idOfInstructor3",
       "name": "Instructor 3 of Course 1 and 2",
       "isInstructor": true,
       "email": "instr3@course1n2.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructor4": {
       "googleId": "idOfInstructor4",
       "name": "Instructor 4 of CourseNoEvals",
       "isInstructor": true,
       "email": "instr4@coursenoevals.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructor5": {
       "googleId": "idOfInstructor5",
       "name": "Instructor 5 of CourseNoRegister",
       "isInstructor": true,
       "email": "instructor5@courseNoRegister.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructorWithoutCourses": {
       "googleId": "instructorWithoutCourses",
       "name": "Instructor Without Courses",
       "isInstructor": true,
       "email": "iwc@yahoo.tmt",
-      "institute": "TEAMMATES Test Institute 7"
+      "institute": "MEC Test Institute 7"
     },
     "instructorWithOnlyOneSampleCourse": {
       "googleId": "idOfInstructorWithOnlyOneSampleCourse",
       "name": "Instructor With Only One Sample Course",
       "isInstructor": true,
       "email": "iwosc@yahoo.tmt",
-      "institute": "TEAMMATES Test Institute 7"
+      "institute": "MEC Test Institute 7"
     },
     "instructorOfArchivedCourse": {
       "googleId": "idOfInstructorOfArchivedCourse",
       "name": "InstructorOfArchiveCourse name",
       "isInstructor": true,
       "email": "instructorOfArchiveCourse@archiveCourse.tmt",
-      "institute": "TEAMMATES Test Institute 5"
+      "institute": "MEC Test Institute 5"
     },
     "instructor1OfTestingSanitizationCourse": {
       "googleId": "idOfInstructor1OfTestingSanitizationCourse",
@@ -103,21 +103,21 @@
       "name": "Student 1 in course 1",
       "isInstructor": false,
       "email": "student1InCourse1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student2InCourse1": {
       "googleId": "student2InCourse1",
       "name": "Student in two courses",
       "isInstructor": false,
       "email": "student2InCourse1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student1InArchivedCourse": {
       "googleId": "student1InArchivedCourse",
       "name": "Student in Archived Course",
       "isInstructor": false,
       "email": "student1InCourse1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student1InTestingSanitizationCourse": {
       "googleId": "student1InTestingSanitizationCourse",

@@ -17,7 +17,7 @@ import { environment } from '../environments/environment';
 import { fromEvent, merge, Observable, of } from 'rxjs';
 import { mapTo } from 'rxjs/operators';
 
-const DEFAULT_TITLE: string = 'TEAMMATES - Online Peer Feedback/Evaluation System for Student Team Projects';
+const DEFAULT_TITLE: string = 'MEC - Measuring EPIC Capabilities';
 
 /**
  * Base skeleton for all pages.

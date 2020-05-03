@@ -5,49 +5,49 @@
       "name": "Teammates Test",
       "isInstructor": true,
       "email": "teammates.test1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "helperWithSessions": {
       "googleId": "CFeedbackUiT.helper",
       "name": "Teammates Test",
       "isInstructor": true,
       "email": "teammates.helper@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructorWithSessions2": {
       "googleId": "CFeedbackUiT.instructor2",
       "name": "Teammates Test2",
       "isInstructor": true,
       "email": "teammates.test2@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructorWithoutCourses": {
       "googleId": "CFeedbackUiT.nocourses",
       "name": "instructor Without Courses",
       "isInstructor": true,
       "email": "teammates.test2@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructorWithoutSessions": {
       "googleId": "CFeedbackUiT.nosessions",
       "name": "Instructor Without Sessions",
       "isInstructor": true,
       "email": "teammates.test3@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructorWithCS2105": {
       "googleId": "CFeedbackUiT.instructorWithCS2105",
       "name": "Teammates Test",
       "isInstructor": true,
       "email": "teammates.test2105@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructorWithCS2106": {
       "googleId": "CFeedbackUiT.instructorWithCS2106",
       "name": "Teammates Test",
       "isInstructor": true,
       "email": "teammates.test2106@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {

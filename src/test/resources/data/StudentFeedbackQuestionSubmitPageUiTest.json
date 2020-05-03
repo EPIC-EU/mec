@@ -5,14 +5,14 @@
       "name": "Teammates Test",
       "isInstructor": true,
       "email": "SFQSubmitUiT.instr@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "SFQSubmitUiT.alice.b": {
       "googleId": "SFQSubmitUiT.alice.b",
       "name": "Alice Betsy",
       "isInstructor": false,
       "email": "SFQSubmitUiT.alice.b@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {

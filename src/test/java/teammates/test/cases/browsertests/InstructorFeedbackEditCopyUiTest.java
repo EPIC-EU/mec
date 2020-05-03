@@ -74,7 +74,7 @@ public class InstructorFeedbackEditCopyUiTest extends BaseE2ETestCase {
         feedbackEditPage.getFsCopyToModal().waitForFormSubmissionErrorMessagePresence();
         assertTrue(feedbackEditPage.getFsCopyToModal().isFormSubmissionStatusMessageVisible());
         feedbackEditPage.getFsCopyToModal().verifyStatusMessage(
-                "\"" + invalidNameforFs + "\" is not acceptable to TEAMMATES as a/an "
+                "\"" + invalidNameforFs + "\" is not acceptable to MEC as a/an "
                 + "feedback session name because it contains invalid characters. "
                 + "A/An feedback session name must start with an alphanumeric character, "
                 + "and cannot contain any vertical bar (|) or percent sign (%).");

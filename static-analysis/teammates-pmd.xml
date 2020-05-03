@@ -4,7 +4,7 @@
          name=""
          xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
     <description>
-        This is the PMD ruleset for all TEAMMATES Java code.
+        This is the PMD ruleset for all MEC Java code.
     </description>
     <exclude-pattern>.*.html</exclude-pattern>
     <exclude-pattern>.*.xml</exclude-pattern>

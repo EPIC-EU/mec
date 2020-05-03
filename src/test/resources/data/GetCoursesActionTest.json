@@ -5,14 +5,14 @@
       "name": "Instructor 1",
       "isInstructor": true,
       "email": "instr1@course1.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student1": {
       "googleId": "idOfStudent1",
       "name": "student 1",
       "isInstructor": false,
       "email": "student1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {

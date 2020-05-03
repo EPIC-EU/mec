@@ -5,56 +5,56 @@
       "name": "Instructor 1 of Course 1",
       "isInstructor": true,
       "email": "FSDTest.instr1@course1.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructor2OfCourse1": {
       "googleId": "FSDTest.idOfInstructor2OfCourse1",
       "name": "Instructor 2 of Course 1",
       "isInstructor": true,
       "email": "FSDTest.instr2@course1.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructorWithoutCourses": {
       "googleId": "FSDTest.instructorWithoutCourses",
       "name": "Instructor Without Courses",
       "isInstructor": true,
       "email": "FSDTest.iwc@yahoo.tmt",
-      "institute": "TEAMMATES Test Institute 7"
+      "institute": "MEC Test Institute 7"
     },
     "student1InCourse1": {
       "googleId": "FSDTest.student1InCourse1",
       "name": "Student 1 in course 1",
       "isInstructor": false,
       "email": "FSDTest.sudent1inCourse1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student2InCourse1": {
       "googleId": "FSDTest.student2InCourse1",
       "name": "Student in two courses",
       "isInstructor": false,
       "email": "FSDTest.sudent2inCourse1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student3InCourse1": {
       "googleId": "FSDTest.student3InCourse1",
       "name": "Student 3 in course 1",
       "isInstructor": false,
       "email": "FSDTest.sudent1inCourse1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student4InCourse1": {
       "googleId": "FSDTest.student4InCourse1",
       "name": "Student 4 in course 1",
       "isInstructor": false,
       "email": "FSDTest.sudent4inCourse1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student5InCourse1": {
       "googleId": "FSDTest.student5InCourse1",
       "name": "Student 5 in course 1",
       "isInstructor": false,
       "email": "FSDTest.sudent5inCourse1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {

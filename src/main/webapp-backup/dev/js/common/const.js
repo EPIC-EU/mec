@@ -6,7 +6,7 @@
 const Const = {
     ModalDialog: {
         UNREGISTERED_STUDENT: {
-            header: 'Register for TEAMMATES',
+            header: 'Register for MEC',
             text: 'You have to register using a google account in order to access this page. '
                   + 'Would you like to proceed and register?',
         },

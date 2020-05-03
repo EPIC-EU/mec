@@ -1,11 +1,11 @@
 # Development Guidelines
 
-These are the common tasks involved when working on features, enhancements, bug fixes, etc. for TEAMMATES.
+These are the common tasks involved when working on features, enhancements, bug fixes, etc. for MEC.
 
 * [Managing the dev server: front-end](#managing-the-dev-server-front-end)
 * [Managing the dev server: back-end](#managing-the-dev-server-back-end)
 * [Building front-end files](#building-front-end-files)
-* [Logging in to a TEAMMATES instance](#logging-in-to-a-teammates-instance)
+* [Logging in to a MEC instance](#logging-in-to-a-teammates-instance)
 * [Testing](#testing)
 * [Deploying to a staging server](#deploying-to-a-staging-server)
 * [Running client scripts](#running-client-scripts)
@@ -16,7 +16,7 @@ The instructions in all parts of this document work for Linux, OS X, and Windows
 - All the commands are assumed to be run from the root project folder, unless otherwise specified.
 - It is assumed that the development environment has been correctly set up. If this step has not been completed, refer to [this document](setting-up.md).
 
-> If you encounter any problems during the any of the processes, please refer to our [troubleshooting guide](troubleshooting-guide.md) before posting a help request on our [issue tracker](https://github.com/TEAMMATES/teammates/issues).
+> If you encounter any problems during the any of the processes, please refer to our [troubleshooting guide](troubleshooting-guide.md) before posting a help request on our [issue tracker](https://github.com/MEC/teammates/issues).
 
 ## Managing the dev server: front-end
 
@@ -75,6 +75,26 @@ If you started the server in the background, run the following command to stop i
 
 If the server is running in the foreground, press `Ctrl + C` (or equivalent in your OS) to stop it or run the above command in a new console.
 
+### With Docker
+
+You first need to build the application container:
+
+```sh
+docker build --pull -t teammates:latest .
+```
+
+where `teammates:latest` can be replaced with any name and version tag that you want to use.
+
+Run this command to start the application container:
+
+```sh
+docker run -p 8080:8080 -h teammatescontainer teammates:latest
+```
+
+The dev server will be accessible at `http://localhost:8080` and is able to serve both back-end and front-end.
+
+**Note:** Recreating the container will delete the datastore and blobstore.
+
 ## Building front-end files
 
 In order for the dev server to be able to serve both the front-end and the back-end of the application, the front-end files need to be *bundled and transpiled* (afterwards `built`).
@@ -90,7 +110,7 @@ npm run build
 
 After this, the back-end dev server will also be able to serve the front-end.
 
-## Logging in to a TEAMMATES instance
+## Logging in to a MEC instance
 
 This instruction set applies for both dev server and production server, with slight differences explained where applicable.
 - The local dev server is assumed to be accessible at `http://localhost:8080`.
@@ -157,13 +177,13 @@ POST http://localhost:8080/_ah/login?action=Log+Out
 
 ## Testing
 
-There are two big categories of testing in TEAMMATES:
+There are two big categories of testing in MEC:
 - **Component tests**: white-box unit and integration tests, i.e. they test the application components with full knowledge of the components' internal workings. This is configured in `src/test/resources/testng-component.xml` (back-end) and `src/web/jest.config.js` (front-end).
 - **E2E (end-to-end) tests**: black-box tests, i.e. they test the application as a whole without knowing any internal working. This is configured in `src/e2e/resources/testng-e2e.xml`.
 
 ### Configuring browsers for E2E Testing
 
-TEAMMATES E2E testing requires Firefox or Chrome.
+MEC E2E testing requires Firefox or Chrome.
 
 Before running tests, modify `src/e2e/resources/test.properties` if necessary, e.g. to configure which browser and test accounts to use.
 
@@ -239,7 +259,7 @@ The report can be found in the `build/reports/jacoco/jacocoReport/` directory.
 If you are testing against a production server (staging server or live server), some additional tasks need to be done.
 
 1. You need to setup a `Gmail API`<sup>1</sup> as follows:
-   * [Obtain a Gmail API credentials](https://github.com/TEAMMATES/teammates-ops/blob/master/platform-guide.md) and download it.
+   * [Obtain a Gmail API credentials](https://github.com/MEC/teammates-ops/blob/master/platform-guide.md) and download it.
    * Copy the file to `src/e2e/resources/gmail-api` (create the `gmail-api` folder) of your project and rename it to `client_secret.json`.
    * It is also possible to use the Gmail API credentials from any other Google Cloud Platform project for this purpose.
 
@@ -250,7 +270,7 @@ If you are testing against a production server (staging server or live server), 
    * You may want to run `InstructorCourseDetailsPageUiTest` standalone first because you would need to login to test accounts for the first time.
    * Do note that the GAE daily quota is usually not enough to run the full test suite, in particular for accounts with no billing enabled.
 
-<sup>1</sup> This setup is necessary because our test suite uses the Gmail API to access Gmail accounts used for testing (these accounts are specified in `test.properties`) to confirm that those accounts receive the expected emails from TEAMMATES.
+<sup>1</sup> This setup is necessary because our test suite uses the Gmail API to access Gmail accounts used for testing (these accounts are specified in `test.properties`) to confirm that those accounts receive the expected emails from MEC.
 This is needed only when testing against a production server because no actual emails are sent by the dev server and therefore delivery of emails is not tested when testing against the dev server.
 
 ## Deploying to a staging server
@@ -258,7 +278,7 @@ This is needed only when testing against a production server because no actual e
 > `Staging server` is the server instance you set up on Google App Engine for hosting the app for testing purposes.
 
 For most cases, you do not need a staging server as the dev server has covered almost all of the application's functionality.
-If you need to deploy your application to a staging server, refer to [this guide](https://github.com/TEAMMATES/teammates-ops/blob/master/platform-guide.md#deploying-to-a-staging-server).
+If you need to deploy your application to a staging server, refer to [this guide](https://github.com/MEC/teammates-ops/blob/master/platform-guide.md#deploying-to-a-staging-server).
 
 ## Running client scripts
 
@@ -266,7 +286,7 @@ If you need to deploy your application to a staging server, refer to [this guide
 
 Most of developers may not need to write and/or run client scripts but if you are to do so, take note of the following:
 
-* If you are to run a script in a production environment, there are additional steps to follow. Refer to [this guide](https://github.com/TEAMMATES/teammates-ops/blob/master/platform-guide.md#running-client-scripts).
+* If you are to run a script in a production environment, there are additional steps to follow. Refer to [this guide](https://github.com/MEC/teammates-ops/blob/master/platform-guide.md#running-client-scripts).
 * It is not encouraged to compile and run any script via command line; use any of the supported IDEs to significantly ease this task.
 
 ## Config points

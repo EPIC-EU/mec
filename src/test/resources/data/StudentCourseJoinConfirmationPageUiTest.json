@@ -5,14 +5,14 @@
       "name": "Teammates Test",
       "isInstructor": true,
       "email": "SCJConfirmationUiT.instr@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "alice.tmms": {
       "googleId": "${value.injected.in.testfile}",
       "name": "Alice B",
       "isInstructor": false,
       "email": "${value.injected.in.testfile}",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {

@@ -52,7 +52,7 @@ public class AccountsDbTest extends BaseComponentTestCase {
                 .withName("Test account Name")
                 .withIsInstructor(false)
                 .withEmail("fresh-account@email.com")
-                .withInstitute("TEAMMATES Test Institute 1")
+                .withInstitute("MEC Test Institute 1")
                 .build();
 
         accountsDb.createEntity(a);
@@ -199,7 +199,7 @@ public class AccountsDbTest extends BaseComponentTestCase {
                 .withName("Valid Fresh Account")
                 .withIsInstructor(false)
                 .withEmail("valid@email.com")
-                .withInstitute("TEAMMATES Test Institute 1")
+                .withInstitute("MEC Test Institute 1")
                 .build();
     }
 }

@@ -32,11 +32,11 @@ public class ProfilesDbTest extends BaseComponentTestCase {
 
         // typical profiles
         profilesDb.createEntity(StudentProfileAttributes.builder("valid.googleId")
-                .withInstitute("TEAMMATES Test Institute 1")
+                .withInstitute("MEC Test Institute 1")
                 .withPictureKey(typicalPictureKey)
                 .build());
         profilesDb.createEntity(StudentProfileAttributes.builder("valid.googleId2")
-                .withInstitute("TEAMMATES Test Institute 1")
+                .withInstitute("MEC Test Institute 1")
                 .withPictureKey(typicalPictureKey)
                 .build());
 

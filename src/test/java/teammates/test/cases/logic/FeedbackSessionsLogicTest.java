@@ -604,7 +604,7 @@ public class FeedbackSessionsLogicTest extends BaseLogicTest {
         fs.setFeedbackSessionName("test & test");
         Exception e = assertThrows(Exception.class, () -> fsLogic.createFeedbackSession(finalFs));
         assertEquals(
-                "The provided feedback session name is not acceptable to TEAMMATES "
+                "The provided feedback session name is not acceptable to MEC "
                         + "as it cannot contain the following special html characters in brackets: "
                         + "(&lt; &gt; &quot; &#x2f; &#39; &amp;)",
                 e.getMessage());
@@ -612,7 +612,7 @@ public class FeedbackSessionsLogicTest extends BaseLogicTest {
         fs.setFeedbackSessionName("test %| test");
         e = assertThrows(Exception.class, () -> fsLogic.createFeedbackSession(finalFs));
         assertEquals(
-                "\"test %| test\" is not acceptable to TEAMMATES as a/an feedback session name "
+                "\"test %| test\" is not acceptable to MEC as a/an feedback session name "
                         + "because it contains invalid characters. A/An feedback session name "
                         + "must start with an alphanumeric character, and cannot contain "
                         + "any vertical bar (|) or percent sign (%).",

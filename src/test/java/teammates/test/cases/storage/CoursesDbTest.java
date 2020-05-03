@@ -61,7 +61,7 @@ public class CoursesDbTest extends BaseComponentTestCase {
         InvalidParametersException ipe = assertThrows(InvalidParametersException.class,
                 () -> coursesDb.createEntity(invalidIdCourse));
         AssertHelper.assertContains(
-                "not acceptable to TEAMMATES as a/an course ID because it is not in the correct format",
+                "not acceptable to MEC as a/an course ID because it is not in the correct format",
                 ipe.getMessage());
 
         String longCourseName = StringHelperExtension.generateStringOfLength(FieldValidator.COURSE_NAME_MAX_LENGTH + 1);
@@ -71,7 +71,7 @@ public class CoursesDbTest extends BaseComponentTestCase {
                 .withTimezone(ZoneId.of("UTC"))
                 .build();
         ipe = assertThrows(InvalidParametersException.class, () -> coursesDb.createEntity(invalidNameCourse));
-        AssertHelper.assertContains("not acceptable to TEAMMATES as a/an course name because it is too long",
+        AssertHelper.assertContains("not acceptable to MEC as a/an course name because it is too long",
                 ipe.getMessage());
 
         ______TS("Failure: null parameter");

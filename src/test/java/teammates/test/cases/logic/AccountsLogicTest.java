@@ -167,7 +167,7 @@ public class AccountsLogicTest extends BaseLogicTest {
         AccountAttributes accountData = AccountAttributes.builder(correctStudentId)
                 .withName("nameABC")
                 .withEmail("real@gmail.com")
-                .withInstitute("TEAMMATES Test Institute 1")
+                .withInstitute("MEC Test Institute 1")
                 .withIsInstructor(true)
                 .build();
 
@@ -340,7 +340,7 @@ public class AccountsLogicTest extends BaseLogicTest {
         instructorsLogic.verifyInstructorExists(nonInstrAccount.googleId);
 
         AccountAttributes instructorAccount = accountsLogic.getAccount(nonInstrAccount.googleId);
-        assertEquals("TEAMMATES Test Institute 1", instructorAccount.institute);
+        assertEquals("MEC Test Institute 1", instructorAccount.institute);
 
         accountsLogic.deleteAccountCascade(nonInstrAccount.googleId);
 

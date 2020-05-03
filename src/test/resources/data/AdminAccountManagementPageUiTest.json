@@ -5,14 +5,14 @@
       "name": "Teammates Instr1",
       "isInstructor": true,
       "email": "AAMgtUiT.instr1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "AAMgtUiT.instr3": {
       "googleId": "AAMgtUiT.instr3",
       "name": "Teammates Instr3",
       "isInstructor": true,
       "email": "AAMgtUiT.instr3@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" (tmClickOutside)="isCollapsed = true">
-  <a routerLink="/web" (click)="isCollapsed = true">
-    <img src="assets/images/teammateslogo.png" alt="TEAMMATES [Logo]">
+  <a routerLink="/web" (click)="isCollapsed = true" style="padding-left:10px;text-decoration:none; color: #fff; font-size: large; font-weight: bold">
+    MEC
   </a>
   <button class="navbar-toggler d-lg-none" type="button" (click)="toggleCollapse()" [attr.aria-expanded]="!isCollapsed" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -21,16 +21,16 @@
     </ul>
     <ul class="nav navbar-nav mr-auto" *ngIf="!isValidUser"></ul>
     <ul class="nav navbar-nav pull-right" *ngIf="!hideAuthInfo && !isFetchingAuthDetails">
-      <li class="nav-item dropdown" ngbDropdown placement="bottom-right" *ngIf="!user">
+      <li class="nav-item dropdown dropdown-menu-right" ngbDropdown placement="bottom-right" *ngIf="!user">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" ngbDropdownToggle>Login</a>
-        <div class="dropdown-menu" ngbDropdownMenu>
+        <div class="dropdown-menu-right" ngbDropdownMenu>
           <a class="dropdown-item" id="student-login-btn" [href]="studentLoginUrl">Student Login</a>
           <a class="dropdown-item" id="instructor-login-btn" [href]="instructorLoginUrl">Instructor Login</a>
         </div>
       </li>
-      <li class="nav-item dropdown" ngbDropdown placement="bottom-right" *ngIf="user">
+      <li class="nav-item dropdown dropdown-menu-right" ngbDropdown placement="bottom-right" *ngIf="user">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" ngbDropdownToggle>{{ user }}</a>
-        <div class="dropdown-menu" ngbDropdownMenu>
+        <div class="dropdown-menu-right" ngbDropdownMenu>
           <a class="dropdown-item" routerLink="/web/student" *ngIf="isStudent">To student pages</a>
           <a class="dropdown-item" routerLink="/web/instructor" *ngIf="isInstructor">To instructor pages</a>
           <a class="dropdown-item" routerLink="/web/admin" *ngIf="isAdmin">To admin pages</a>
@@ -46,7 +46,7 @@
 <div *ngIf="!isFetchingAuthDetails" id="main-content" class="container main-content">
   <div *ngIf="isUnsupportedBrowser">
     <div class="alert alert-danger" role="alert">
-      <i class="fas fa-exclamation-circle"></i>&nbsp;You are currently using {{ browser }}. This web browser is not officially supported by TEAMMATES.
+      <i class="fas fa-exclamation-circle"></i>&nbsp;You are currently using {{ browser }}. This web browser is not officially supported by MEC.
       In case this web browser does not display the webpage correctly you may wish to view it in the following supported browsers:
       <ol>
         <li>Microsoft Internet Explorer {{ minimumVersions['IE'] }}+</li>
@@ -63,7 +63,7 @@
   </div>
   <div *ngIf="isCookieDisabled">
     <div class="alert alert-danger" role="alert">
-      <i class="fas fa-ban"></i>&nbsp;You are currently not enabling cookies in your browser. TEAMMATES requires cookies in order to work effectively.
+      <i class="fas fa-ban"></i>&nbsp;You are currently not enabling cookies in your browser. MEC requires cookies in order to work effectively.
     </div>
   </div>
   <div *ngIf="!isValidUser">
@@ -81,16 +81,16 @@
       <div class="row">
         <div class="alert alert-danger col-sm-8 offset-sm-2">
           <div class="align-left">
-            <h5 style="text-align: center;"><i class="fas fa-exclamation-circle"></i>&nbsp;Ooops! Your Google account is not known to TEAMMATES</h5>
+            <h5 style="text-align: center;"><i class="fas fa-exclamation-circle"></i>&nbsp;Ooops! Your Google account is not known to MEC</h5>
             <p style="text-align: center">
-              To access a course on TEAMMATES, you need to wait until an instructor adds you to that course. As a confirmation, TEAMMATES will send you instructions on how to access that particular course.
+              To access a course on MEC, you need to wait until an instructor adds you to that course. As a confirmation, MEC will send you instructions on how to access that particular course.
             </p>
             <hr>
             <br>
-            If you 'joined' the course in TEAMMATES using a Google account before, but cannot login anymore, these are the possible reasons:
+            If you 'joined' the course in MEC using a Google account before, but cannot login anymore, these are the possible reasons:
             <ol>
               <li>
-                You used a different Google account to access TEAMMATES in the past. In that case, you need to use the same Google account to access TEAMMATES again. Logout and re-login using the other Google account. If you don't remember which Google account you used previously, email us from the same email account to which you receive TEAMMATES emails.
+                You used a different Google account to access MEC in the past. In that case, you need to use the same Google account to access MEC again. Logout and re-login using the other Google account. If you don't remember which Google account you used previously, email us from the same email account to which you receive MEC emails.
               </li>
               <li>
                 You changed the primary email from a non-Gmail address to a Gmail address recently. In that case,
@@ -115,14 +115,8 @@
   <footer>
     <div class="container footer text-nowrap">
       <div class="row">
-        <div class="col-sm-4 col-md-4 text-left">
-          <i class="fas fa-bolt"></i><a routerLink="/web/front/home"> TEAMMATES</a> V{{ version }}
-        </div>
-        <div class="col-sm-4 col-md-4 text-center">
-          <span *ngIf="institute"><i class="fas fa-university"></i> for {{ institute }}</span>
-        </div>
-        <div class="col-sm-4 col-md-4 text-right">
-          <i class="far fa-comments"></i> Send <a routerLink="/web/front/contact" target="_blank">Feedback</a>
+        <div class="col-12 text-center">
+          MEC
         </div>
       </div>
     </div>

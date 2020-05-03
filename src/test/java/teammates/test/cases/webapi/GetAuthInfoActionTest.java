@@ -76,7 +76,7 @@ public class GetAuthInfoActionTest extends BaseActionTest<GetAuthInfoAction> {
         assertFalse(user.isStudent);
         assertEquals("idOfInstructor1OfCourse1", user.id);
 
-        assertEquals("TEAMMATES Test Institute 1", output.getInstitute());
+        assertEquals("MEC Test Institute 1", output.getInstitute());
 
         ______TS("Normal case: Admin masquerading as user");
 
@@ -95,7 +95,7 @@ public class GetAuthInfoActionTest extends BaseActionTest<GetAuthInfoAction> {
         assertNull(output.getAdminLoginUrl());
         assertTrue(output.isMasquerade());
 
-        assertEquals("TEAMMATES Test Institute 1", output.getInstitute());
+        assertEquals("MEC Test Institute 1", output.getInstitute());
 
         user = output.getUser();
         assertFalse(user.isAdmin);

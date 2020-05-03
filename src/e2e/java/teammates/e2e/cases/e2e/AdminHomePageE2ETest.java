@@ -25,14 +25,14 @@ public class AdminHomePageE2ETest extends BaseE2ETestCase {
 
         String name = "AHPUiT Instrúctör WithPlusInEmail";
         String email = "AHPUiT+++_.instr1!@gmail.tmt";
-        String institute = "TEAMMATES Test Institute 1";
+        String institute = "MEC Test Institute 1";
         String demoCourseId = "AHPUiT____.instr1_.gma-demo";
 
         BackDoor.deleteCourse(demoCourseId);
 
         homePage.queueInstructorForAdding(name, email, institute);
 
-        String singleLineDetails = "Instructor With Invalid Email | invalidemail | TEAMMATES Test Institute 1";
+        String singleLineDetails = "Instructor With Invalid Email | invalidemail | MEC Test Institute 1";
 
         homePage.queueInstructorForAdding(singleLineDetails);
 
@@ -47,7 +47,7 @@ public class AdminHomePageE2ETest extends BaseE2ETestCase {
 
         String failureMessage = homePage.getMessageForInstructor(1);
         assertTrue(failureMessage.contains(
-                "\"invalidemail\" is not acceptable to TEAMMATES as a/an email because it is not in the correct format."));
+                "\"invalidemail\" is not acceptable to MEC as a/an email because it is not in the correct format."));
 
         BackDoor.deleteCourse(demoCourseId);
     }

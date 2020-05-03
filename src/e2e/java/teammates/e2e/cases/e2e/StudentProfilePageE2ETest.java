@@ -29,7 +29,7 @@ public class StudentProfilePageE2ETest extends BaseE2ETestCase {
         loginAdminToPage(url, StudentHomePage.class);
         StudentProfilePage profilePage = AppPage.getNewPageInstance(browser, url, StudentProfilePage.class);
 
-        profilePage.ensureProfileContains("Ben", "i.m.benny@gmail.tmt", "TEAMMATES Test Institute 4",
+        profilePage.ensureProfileContains("Ben", "i.m.benny@gmail.tmt", "MEC Test Institute 4",
                 "Singaporean", StudentProfileAttributes.Gender.MALE, "I am just another student :P");
 
         ______TS("Typical case: picture upload and edit");

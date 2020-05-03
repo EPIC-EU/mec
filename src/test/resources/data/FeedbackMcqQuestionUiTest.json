@@ -5,42 +5,42 @@
       "name": "Teammates Test",
       "isInstructor": true,
       "email": "tmms.test@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "alice.tmms": {
       "googleId": "FMcqQnUiT.alice.tmms",
       "name": "Alice Betsy",
       "isInstructor": false,
       "email": "alice.b.tmms@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student1.tmms": {
       "googleId": "FMcqQnUiT.student1",
       "name": "student1 In Course1</td></div>'\"",
       "isInstructor": false,
       "email": "student1InCourse1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student2.tmms": {
       "googleId": "FMcqQnUiT.student2",
       "name": "student2 In Course1",
       "isInstructor": false,
       "email": "student2InCourse1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student3.tmms": {
       "googleId": "FMcqQnUiT.student3",
       "name": "student3",
       "isInstructor": false,
       "email": "student3InCourse1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student4.tmms": {
       "googleId": "FMcqQnUiT.student4",
       "name": "student4",
       "isInstructor": false,
       "email": "student4InCourse1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {

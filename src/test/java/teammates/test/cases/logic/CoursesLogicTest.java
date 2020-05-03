@@ -354,7 +354,7 @@ public class CoursesLogicTest extends BaseLogicTest {
         AccountsLogic.inst().createAccount(AccountAttributes.builder("instructor1")
                 .withName("Instructor 1")
                 .withEmail("instructor@email.tmt")
-                .withInstitute("TEAMMATES Test Institute 1")
+                .withInstitute("MEC Test Institute 1")
                 .withIsInstructor(true)
                 .build());
         coursesLogic.createCourseAndInstructor("instructor1",
@@ -405,7 +405,7 @@ public class CoursesLogicTest extends BaseLogicTest {
         AccountsLogic.inst().createAccount(AccountAttributes.builder("instructor1")
                 .withName("Instructor 1")
                 .withEmail("instructor@email.tmt")
-                .withInstitute("TEAMMATES Test Institute 1")
+                .withInstitute("MEC Test Institute 1")
                 .withIsInstructor(true)
                 .build());
         coursesLogic.createCourseAndInstructor("instructor1",
@@ -460,7 +460,7 @@ public class CoursesLogicTest extends BaseLogicTest {
         AccountsLogic.inst().createAccount(AccountAttributes.builder("instructor1")
                 .withName("Instructor 1")
                 .withEmail("instructor@email.tmt")
-                .withInstitute("TEAMMATES Test Institute 1")
+                .withInstitute("MEC Test Institute 1")
                 .withIsInstructor(true)
                 .build());
         coursesLogic.createCourseAndInstructor("instructor1",
@@ -510,7 +510,7 @@ public class CoursesLogicTest extends BaseLogicTest {
         AccountsLogic.inst().createAccount(AccountAttributes.builder("instructor1")
                 .withName("Instructor 1")
                 .withEmail("instructor@email.tmt")
-                .withInstitute("TEAMMATES Test Institute 1")
+                .withInstitute("MEC Test Institute 1")
                 .withIsInstructor(true)
                 .build());
         coursesLogic.createCourseAndInstructor("instructor1",
@@ -831,7 +831,7 @@ public class CoursesLogicTest extends BaseLogicTest {
                 .withName(i.name)
                 .withIsInstructor(false)
                 .withEmail(i.email)
-                .withInstitute("TEAMMATES Test Institute 5")
+                .withInstitute("MEC Test Institute 5")
                 .build();
 
         accountsDb.createEntity(a);
@@ -860,7 +860,7 @@ public class CoursesLogicTest extends BaseLogicTest {
                 .build();
 
         String expectedError =
-                "\"" + invalidCourse.getId() + "\" is not acceptable to TEAMMATES as a/an course ID because"
+                "\"" + invalidCourse.getId() + "\" is not acceptable to MEC as a/an course ID because"
                 + " it is not in the correct format. "
                 + "A course ID can contain letters, numbers, fullstops, hyphens, underscores, and dollar signs. "
                 + "It cannot be longer than 40 characters, cannot be empty and cannot contain spaces.";

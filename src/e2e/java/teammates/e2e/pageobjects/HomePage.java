@@ -17,7 +17,7 @@ public class HomePage extends AppPage {
 
     @Override
     protected boolean containsExpectedPageContents() {
-        return getTitle().contains("TEAMMATES");
+        return getTitle().contains("MEC");
     }
 
     public LoginPage clickStudentLogin() {

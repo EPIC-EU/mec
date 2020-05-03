@@ -1,6 +1,6 @@
 # Documentation For Developers
 
-Here are some documents important for TEAMMATES developers.
+Here are some documents important for MEC developers.
 
 ## Main documents
 
@@ -8,8 +8,8 @@ Here are some documents important for TEAMMATES developers.
 * The [**glossary**](glossary.md) of terms used in the project.
 * Software [**Design**](design.md) - Architecture, APIs, etc.
 * How to [**set up the developer environment**](setting-up.md).
-* [**Development guideline**](development.md) - how to work with your own copy of TEAMMATES.
-* The [**workflow/process to follow**](process.md) when contributing to TEAMMATES.
+* [**Development guideline**](development.md) - how to work with your own copy of MEC.
+* The [**workflow/process to follow**](process.md) when contributing to MEC.
 * [**Developer Troubleshooting Guide**](troubleshooting-guide.md)
 * How the [**issue tracker**](issues.md) is used - issue lifecycle, issue labels, etc.
 

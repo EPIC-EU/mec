@@ -24,40 +24,7 @@ export class StaticPageComponent implements OnInit {
     {
       url: '/web/front',
       display: 'Home',
-    },
-    {
-      url: '/web/front/features',
-      display: 'Features',
-    },
-    {
-      url: '/web/front/about',
-      display: 'About',
-    },
-    {
-      url: '/web/front/contact',
-      display: 'Contact',
-    },
-    {
-      url: '/web/front/terms',
-      display: 'Terms',
-    },
-    {
-      display: 'Help',
-      children: [
-        {
-          url: '/web/front/help/student',
-          display: 'Student Help',
-        },
-        {
-          url: '/web/front/help/instructor',
-          display: 'Instructor Help',
-        },
-        {
-          url: '/web/front/help/session-links-recovery',
-          display: 'Recover Session Links',
-        },
-      ],
-    },
+    }
   ];
   isFetchingAuthDetails: boolean = false;
 

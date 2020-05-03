@@ -47,7 +47,7 @@ public final class StudentProfileLNPTest extends BaseLNPTestCase {
                             .withEmail(STUDENT_EMAIL + i + "@gmail.tmt")
                             .withName(STUDENT_NAME + i)
                             .withIsInstructor(false)
-                            .withInstitute("TEAMMATES Test Institute 1")
+                            .withInstitute("MEC Test Institute 1")
                             .build()
                     );
                 }
@@ -114,7 +114,7 @@ public final class StudentProfileLNPTest extends BaseLNPTestCase {
                     profiles.put(STUDENT_NAME + i, StudentProfileAttributes.builder(STUDENT_NAME + i + ".tmms")
                             .withEmail(STUDENT_EMAIL + i + "@gmail.tmt")
                             .withShortName(String.valueOf(i))
-                            .withInstitute("TEAMMATES Test Institute 222")
+                            .withInstitute("MEC Test Institute 222")
                             .withMoreInfo("I am " + i)
                             .withPictureKey("")
                             .withGender(StudentProfileAttributes.Gender.MALE)

@@ -32,10 +32,10 @@ public final class TestProperties {
     public static final String TEST_DATA_FOLDER = "src/e2e/resources/data";
 
     /** The value of "test.app.url" in test.properties file. */
-    public static final String TEAMMATES_URL;
+    public static final String MEC_URL;
 
     /** The version number of the application under test. */
-    public static final String TEAMMATES_VERSION;
+    public static final String MEC_VERSION;
 
     /** The Google ID of the test instructor account. */
     public static final String TEST_INSTRUCTOR_ACCOUNT;
@@ -111,13 +111,13 @@ public final class TestProperties {
                 prop.load(testPropStream);
             }
 
-            TEAMMATES_URL = Url.trimTrailingSlash(prop.getProperty("test.app.url"));
+            MEC_URL = Url.trimTrailingSlash(prop.getProperty("test.app.url"));
 
             Properties buildProperties = new Properties();
             try (InputStream buildPropStream = Files.newInputStream(Paths.get("src/main/resources/build.properties"))) {
                 buildProperties.load(buildPropStream);
             }
-            TEAMMATES_VERSION = buildProperties.getProperty("app.version");
+            MEC_VERSION = buildProperties.getProperty("app.version");
 
             TEST_ADMIN_ACCOUNT = prop.getProperty("test.admin.account");
             TEST_ADMIN_PASSWORD = prop.getProperty("test.admin.password");
@@ -158,7 +158,7 @@ public final class TestProperties {
     }
 
     public static boolean isDevServer() {
-        return TEAMMATES_URL.matches("^https?://localhost:[0-9]+(/.*)?");
+        return MEC_URL.matches("^https?://localhost:[0-9]+(/.*)?");
     }
 
 }

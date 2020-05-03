@@ -20,7 +20,7 @@ public class RecaptchaVerifier {
     /** The Google reCAPTCHA API URL to verify the response token. */
     private static final String VERIFY_URL = "https://www.google.com/recaptcha/api/siteverify";
 
-    /** The shared secret key between the TEAMMATES site and reCAPTCHA. */
+    /** The shared secret key between the MEC site and reCAPTCHA. */
     private static final String SECRET_KEY = Config.CAPTCHA_SECRET_KEY;
 
     private static final Logger log = Logger.getLogger();

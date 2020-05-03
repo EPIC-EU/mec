@@ -178,7 +178,7 @@ public class UpdateStudentProfileActionTest extends BaseActionTest<UpdateStudent
 
         req.setShortName("short ");
         req.setEmail("e@email.com  ");
-        req.setInstitute(" TEAMMATES Test Institute 5   ");
+        req.setInstitute(" MEC Test Institute 5   ");
         req.setNationality("American");
         req.setGender("  other   ");
         req.setMoreInfo("   This is more info on me   ");

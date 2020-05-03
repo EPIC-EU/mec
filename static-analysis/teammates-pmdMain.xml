@@ -4,7 +4,7 @@
          name=""
          xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
     <description>
-        This is the PMD additional ruleset for TEAMMATES production code.
+        This is the PMD additional ruleset for MEC production code.
     </description>
     <exclude-pattern>.*/test/java/.*</exclude-pattern>
     <exclude-pattern>.*/e2e/java/.*</exclude-pattern>

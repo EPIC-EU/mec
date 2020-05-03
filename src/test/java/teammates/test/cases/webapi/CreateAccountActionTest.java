@@ -38,7 +38,7 @@ public class CreateAccountActionTest extends BaseActionTest<CreateAccountAction>
         loginAsAdmin();
         String name = "JamesBond";
         String email = "jamesbond89@gmail.tmt";
-        String institute = "TEAMMATES Test Institute 1";
+        String institute = "MEC Test Institute 1";
 
         ______TS("Not enough parameters");
         AccountCreateRequest badRequest = buildCreateRequest(null, institute, email);
@@ -104,7 +104,7 @@ public class CreateAccountActionTest extends BaseActionTest<CreateAccountAction>
             finalA.execute();
         } catch (InvalidHttpRequestBodyException e) {
             String expectedError =
-                    "\"" + invalidName + "\" is not acceptable to TEAMMATES as a/an person name because "
+                    "\"" + invalidName + "\" is not acceptable to MEC as a/an person name because "
                             + "it contains invalid characters. A/An person name must start with an "
                             + "alphanumeric character, and cannot contain any vertical bar (|) or percent sign (%).";
             assertEquals(expectedError, e.getMessage());

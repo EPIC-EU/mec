@@ -157,7 +157,7 @@ public final class JMeterElements {
     }
 
     /**
-     * Returns a HTTP Request element that is configured to login to a TEAMMATES instance.
+     * Returns a HTTP Request element that is configured to login to a MEC instance.
      *
      * <p>This element uses data from the "loginId" and "isAdmin" fields of the CSV config file.</p>
      */

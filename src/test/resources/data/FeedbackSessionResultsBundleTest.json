@@ -5,21 +5,21 @@
       "name": "Instructor 1 of Course 1",
       "isInstructor": true,
       "email": "instr1@course1.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student1InCourse1": {
       "googleId": "student1InCourse1",
       "name": "Student 1 in course 1",
       "isInstructor": false,
       "email": "student1InCourse1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student2InCourse1": {
       "googleId": "student2InCourse1",
       "name": "Student in two courses",
       "isInstructor": false,
       "email": "student2InCourse1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student3InCourse1": {
       "googleId": "student3InCourse1",
@@ -277,7 +277,7 @@
       "googleId": "student1InCourse1",
       "shortName": "Stud1",
       "email": "i.m.stud1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1",
+      "institute": "MEC Test Institute 1",
       "nationality": "American",
       "gender": "MALE",
       "moreInfo": "I am just a student :P",

@@ -51,7 +51,7 @@ You can sign up for the free [JetBrains student license](https://www.jetbrains.c
 1. Configure the following project-specific settings (all can be found in `IntelliJ IDEA → Preferences → ...`):
 
    * Indentation: 2 spaces are used in place of tabs for indentations. For Java and XML, 4 spaces are used instead.
-     Configure for all the languages used in TEAMMATES:
+     Configure for all the languages used in MEC:
      1. Go to `Editor → Code Style`.
      1. Select `Project` for `Scheme` if you do not wish to make the settings the default for your IDE.
      1. For `TypeScript`, `JSON`, `CSS`, and `HTML`:

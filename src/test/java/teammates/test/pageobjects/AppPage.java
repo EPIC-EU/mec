@@ -1259,7 +1259,7 @@ public abstract class AppPage {
     public void verifyDefaultImageUrl(String imgSrc) {
         openNewWindow(imgSrc);
         switchToNewWindow();
-        assertEquals(TestProperties.TEAMMATES_URL + Const.SystemParams.DEFAULT_PROFILE_PICTURE_PATH,
+        assertEquals(TestProperties.MEC_URL + Const.SystemParams.DEFAULT_PROFILE_PICTURE_PATH,
                 browser.driver.getCurrentUrl());
         browser.closeCurrentWindowAndSwitchToParentWindow();
     }

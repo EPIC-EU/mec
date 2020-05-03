@@ -5,42 +5,42 @@
       "name": "Teammates Test",
       "isInstructor": true,
       "email": "teammates.test@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "teammates.instr": {
       "googleId": "teammates.instr",
       "name": "Teammates Coord",
       "isInstructor": true,
       "email": "teammates.instr@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "alice.b.tmms": {
       "googleId": "alice.b.tmms",
       "name": "Alice Betsy",
       "isInstructor": false,
       "email": "alice.b.tmms@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "benny.c.tmms": {
       "googleId": "benny.c.tmms",
       "name": "Benny Charles",
       "isInstructor": false,
       "email": "benny.c.tmms@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "charlie.d.tmms": {
       "googleId": "charlie.d.tmms",
       "name": "Charlie Davis",
       "isInstructor": false,
       "email": "charlie.d.tmms@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "danny.e.tmms": {
       "googleId": "danny.e.tmms",
       "name": "Danny Engrid",
       "isInstructor": false,
       "email": "danny.e.tmms@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {
@@ -849,7 +849,7 @@
       "googleId": "alice.b.tmms",
       "shortName": "Alice",
       "email": "",
-      "institute": "TEAMMATES Test Institute 10",
+      "institute": "MEC Test Institute 10",
       "nationality": "",
       "gender": "FEMALE",
       "moreInfo": "Some info",
@@ -859,7 +859,7 @@
       "googleId": "benny.c.tmms",
       "shortName": "Benny",
       "email": "",
-      "institute": "TEAMMATES Test Institute 4",
+      "institute": "MEC Test Institute 4",
       "nationality": "",
       "gender": "MALE",
       "moreInfo": "This is a lot more info so that the instructor can see the extent of info that can be given",

@@ -44,7 +44,7 @@
         <div class="card-body">
           <p>
             Multiple-choice (single answer) questions allow respondents to choose one answer from your list of answer options.<br>
-            Other than manually specifying options, TEAMMATES also supports <b>generating options</b> based on the list of students, teams and instructors in the course.
+            Other than manually specifying options, MEC also supports <b>generating options</b> based on the list of students, teams and instructors in the course.
           </p>
           <p>
             To set up a multiple choice (single answer) question:
@@ -71,7 +71,7 @@
           </ol>
           <p>EXAMPLE BOX</p>
           <p>
-            When you view the results of a multiple-choice (single answer) question, TEAMMATES calculates some statistics about the results collected,
+            When you view the results of a multiple-choice (single answer) question, MEC calculates some statistics about the results collected,
             such as the number of responses for each option, and the percentage of response in which each option was chosen.
             If weights are assigned in the question, then additional statistics are calculated such as count and average point for each option.
             'Per Recipient Statistics' are calculated if weights are assigned, it contains the number of responses each recipient received for each option,
@@ -139,7 +139,7 @@
               Specify the minimum and maximum valid input values — values outside of the range specified will not be allowed
             </li>
             <li>
-              Specify the precision at which input values should increment — TEAMMATES uses this value to enumerate all possible acceptable responses
+              Specify the precision at which input values should increment — MEC uses this value to enumerate all possible acceptable responses
             </li>
             <li>
               Specify the feedback path that should be used to generate the appropriate feedback recipients
@@ -148,7 +148,7 @@
           <p>EXAMPLE BOX</p>
           <p>
             Statistics for numerical scale questions are also provided for instructors.<br>
-            TEAMMATES calculates the mean, minimum and maximum values based on all responses given.
+            MEC calculates the mean, minimum and maximum values based on all responses given.
           </p>
           <p>EXAMPLE BOX</p>
         </div>
@@ -191,7 +191,7 @@
           </ol>
           <p>EXAMPLE BOX</p>
           <p>
-            In the results view, TEAMMATES provides statistics on the average number of points each option received.
+            In the results view, MEC provides statistics on the average number of points each option received.
           </p>
           <p>EXAMPLE BOX</p>
         </div>
@@ -251,7 +251,7 @@
             They estimate the perceived contribution of a student and prevent students from inflating their own scores.
           </p>
           <p>
-            If you do not wish to use TEAMMATES's specialized calculation scheme, you may choose to use a distribute points (among recipients) question type.
+            If you do not wish to use MEC's specialized calculation scheme, you may choose to use a distribute points (among recipients) question type.
             Distribute points (among recipients) questions calculate the mean of all scores given to the recipient.
           </p>
           <p>
@@ -269,8 +269,8 @@
           </p>
           <p>EXAMPLE BOX</p>
           <p>
-            Contribution questions in TEAMMATES are unique because they are targeted at measuring team contributions. <br>
-            Thus, TEAMMATES purposefully prevents students from influencing their own ‘perceived contribution’ value.
+            Contribution questions in MEC are unique because they are targeted at measuring team contributions. <br>
+            Thus, MEC purposefully prevents students from influencing their own ‘perceived contribution’ value.
           </p>
           <p>
             Perceived contribution is calculated based on what a student's other team members perceive as his/her contribution.
@@ -299,7 +299,7 @@
                   <strong>General Mechanism</strong>
                   <div>
                     Students enter contribution estimates for themselves and their team members using the contribution scale
-                    (see <a href="https://github.com/TEAMMATES/teammates/blob/master/docs/glossary.md#product-related"> glossary</a>).
+                    (see <a href="https://github.com/MEC/teammates/blob/master/docs/glossary.md#product-related"> glossary</a>).
                     <br>
                     <br>Based on those values, a student's answer to the following two questions are deduced:
                     <br>(a) In your opinion, what portion of the project did you do?
@@ -642,7 +642,7 @@
               <b>Ranks received</b>: a list of the ranks which a recipient received from respondents
             </li>
             <li>
-              <b>Overall rank</b>: the recipient's rank relative to other recipients, as computed by TEAMMATES
+              <b>Overall rank</b>: the recipient's rank relative to other recipients, as computed by MEC
             </li>
           </ul>
           <p>
@@ -652,7 +652,7 @@
             <div class="modal-body">
               <ul>
                 <li>
-                  <b>Ranks Received</b> is a list of the actual ranks each recipient received. TEAMMATES processes the original responses, handling ties and unused ranks.
+                  <b>Ranks Received</b> is a list of the actual ranks each recipient received. MEC processes the original responses, handling ties and unused ranks.
                   For example, if giver A's original response is <code>(1, 3, 3, 5)</code> and Rank 5 is given to recipient B, after the processing, giver A's response will become <code>(1, 2, 2, 4)</code> and recipient B will have a Rank 4 in his/her <b>Ranks Received</b>, instead of the Rank 5 in the original response by giver A.
                 </li>
                 <li>

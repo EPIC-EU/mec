@@ -5,14 +5,14 @@
       "name": "Teammates Test",
       "isInstructor": true,
       "email": "SHomeUiT.instr@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "SHomeUiT.student": {
       "googleId": "SHomeUiT.student",
       "name": "Alice B",
       "isInstructor": false,
       "email": "SHomeUiT.student@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {

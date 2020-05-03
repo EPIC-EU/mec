@@ -5,7 +5,7 @@
       "name": "Test Ins for Aut Sessions Reminder",
       "isInstructor": true,
       "email": "${value.injected.in.testfile}",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {

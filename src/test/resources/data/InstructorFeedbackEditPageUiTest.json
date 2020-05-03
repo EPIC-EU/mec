@@ -5,21 +5,21 @@
       "name": "Teammates Test",
       "isInstructor": true,
       "email": "tmms.test@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "otherInstructor": {
       "googleId": "CFeedbackEditUiT.instructor2",
       "name": "Instructor 2",
       "isInstructor": true,
       "email": "tmms.instr@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "thirdInstructor": {
       "googleId": "CFeedbackEditUiT.instructor3",
       "name": "Instructor 3",
       "isInstructor": true,
       "email": "tmms.instr@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructor1OfTestingSanitizationCourse": {
       "googleId": "CFeedbackEditUiT.instructor1OfTSCourse",
@@ -33,14 +33,14 @@
       "name": "Instructor DST",
       "isInstructor": true,
       "email": "tmms.instr@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "alice.tmms": {
       "googleId": "CFeedbackEditUiT.alice.tmms",
       "name": "Alice Betsy",
       "isInstructor": false,
       "email": "alice.b.tmms@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {

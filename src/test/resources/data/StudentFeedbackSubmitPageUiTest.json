@@ -5,49 +5,49 @@
       "name": "Teammates Test",
       "isInstructor": true,
       "email": "SFSubmitUiT.instr@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "SFSubmitUiT.instr2": {
       "googleId": "SFSubmitUiT.instr2",
       "name": "Teammates Test2",
       "isInstructor": true,
       "email": "SFSubmitUiT.instr2@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "SFSubmitUiT.instr3": {
       "googleId": "SFSubmitUiT.instr3",
       "name": "Teammates Test3",
       "isInstructor": true,
       "email": "SFSubmitUiT.instr3@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "SFResultsUiT.alice.b": {
       "googleId": "SFSubmitUiT.alice.b",
       "name": "Alice B.",
       "isInstructor": false,
       "email": "SFSubmitUiT.alice.b@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "SFSubmitUiT.charlie.d": {
       "googleId": "SFSubmitUiT.charlie.d",
       "name": "Charlie D.",
       "isInstructor": false,
       "email": "SFSubmitUiT.charlie.d@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "SFSubmitUiT.danny.e": {
       "googleId": "SFSubmitUiT.danny.e",
       "name": "Danny E.",
       "isInstructor": false,
       "email": "SFSubmitUiT.danny.e@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "SFSubmitUiT.emily.f": {
       "googleId": "SFSubmitUiT.emily.f",
       "name": "Emily F.",
       "isInstructor": false,
       "email": "SFSubmitUiT.emily.f@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {

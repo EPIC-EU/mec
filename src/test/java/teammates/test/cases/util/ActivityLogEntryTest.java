@@ -18,7 +18,7 @@ public class ActivityLogEntryTest extends BaseTestCase {
     @Test
     public void builder_defaultValues() {
         Builder builder = new Builder("instructorHome", "URL", 10);
-        String logMessage = "TEAMMATESLOG|||instructorHome|||instructorHome|||true|||Unknown|||Unknown|||Unknown"
+        String logMessage = "MECLOG|||instructorHome|||instructorHome|||true|||Unknown|||Unknown|||Unknown"
                             + "|||Unknown|||Unknown|||URL";
         AssertHelper.assertLogMessageEquals(logMessage, builder.build().generateLogMessage());
     }
@@ -33,7 +33,7 @@ public class ActivityLogEntryTest extends BaseTestCase {
                .withUserGoogleId(null)
                .withUserName(null)
                .withUserRole(null);
-        String logMessage = "TEAMMATESLOG|||Unknown|||Unknown|||true|||Unknown|||Unknown|||Unknown"
+        String logMessage = "MECLOG|||Unknown|||Unknown|||true|||Unknown|||Unknown|||Unknown"
                             + "|||Unknown|||Unknown|||Unknown";
         ActivityLogEntry entry = builder.build();
         AssertHelper.assertLogMessageEquals(logMessage, entry.generateLogMessage());
@@ -46,7 +46,7 @@ public class ActivityLogEntryTest extends BaseTestCase {
 
         String statusToAdmin = "<span class=\"text-danger\">Error. ActivityLogEntry object is not created "
                                + "for this servlet action.</span><br>Message";
-        String logMessage = "TEAMMATESLOG|||instructorHome|||Servlet Action Failure|||true"
+        String logMessage = "MECLOG|||instructorHome|||Servlet Action Failure|||true"
                             + "|||Instructor(M)|||Joe|||GoogleIdA|||instructor@email.tmt"
                             + "|||" + statusToAdmin + "|||url.com";
         Builder builder = new Builder("instructorHome", "url.com", 10);
@@ -84,7 +84,7 @@ public class ActivityLogEntryTest extends BaseTestCase {
     @Test
     public void logEntry_withAppLogLine_constructSuccessfully() {
         ______TS("Success: Generate activityLog from appLogLine (with TimeTaken)");
-        String logMessageWithoutTimeTaken = "TEAMMATESLOG|||instructorHome|||Pageload|||true|||Instructor"
+        String logMessageWithoutTimeTaken = "MECLOG|||instructorHome|||Pageload|||true|||Instructor"
                                             + "|||UserName|||UserId|||UserEmail|||Message|||URL|||UserId20151019143729608";
         AppLogLine appLog = new AppLogLine();
         appLog.setLogMessage(logMessageWithoutTimeTaken + Const.ActivityLog.FIELD_SEPARATOR + "20");
@@ -109,11 +109,11 @@ public class ActivityLogEntryTest extends BaseTestCase {
     public void logEntry_withMalformationAppLogLine_constructionFail() {
         ______TS("Fail: log message not in correct format");
         AppLogLine appLog = new AppLogLine();
-        appLog.setLogMessage("TEAMMATESLOG||RANDOM");
+        appLog.setLogMessage("MECLOG||RANDOM");
         ActivityLogEntry entry = ActivityLogEntry.buildFromAppLog(appLog);
         assertTrue(entry.generateLogMessage().contains(Const.ActivityLog.MESSAGE_ERROR_LOG_MESSAGE_FORMAT));
 
-        String logMessageMalformation = "TEAMMATESLOG|||instructorHome|||Pageload|||true|||Instructor"
+        String logMessageMalformation = "MECLOG|||instructorHome|||Pageload|||true|||Instructor"
                                         + "|||UserName|||UserId|||UserEmail|||Message|||URL";
         appLog.setLogMessage(logMessageMalformation);
         entry = ActivityLogEntry.buildFromAppLog(appLog);

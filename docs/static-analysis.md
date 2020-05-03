@@ -1,6 +1,6 @@
 # Static Analysis
 
-TEAMMATES uses a number of static analysis tools in order to maintain code quality.
+MEC uses a number of static analysis tools in order to maintain code quality.
 This document will cover an overview of these tools and how to run them in local environment.
 
 - [Version numbers](#version-numbers)

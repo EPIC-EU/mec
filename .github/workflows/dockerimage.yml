@@ -1,0 +1,26 @@
+name: Docker Image CI
+
+on:
+  push:
+    tags: 
+      - 'd*.*.*' ## docker tag 
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: olegtarasov/get-tag@v1
+      id: tagName
+
+    - name: Publish to Registry
+      uses: elgohr/Publish-Docker-Github-Action@master
+      with:
+       name: mrturkmen06/teammates/teammates
+       username: ${{ github.actor }}
+       password: ${{ secrets.DOCKER_PASSWORD }}
+       registry: docker.pkg.github.com
+       tags: ${{ steps.tagName.outputs.tag }}
+      
+  

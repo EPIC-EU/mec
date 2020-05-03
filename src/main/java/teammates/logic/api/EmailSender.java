@@ -55,7 +55,7 @@ public class EmailSender {
             log.severe("Email failed to send: " + status.getMessage());
         }
 
-        String emailLogInfo = String.join("|||", "TEAMMATESEMAILLOG",
+        String emailLogInfo = String.join("|||", "MECEMAILLOG",
                 message.getRecipient(), message.getSubject(), message.getContent(),
                 status.getMessage() == null ? "" : status.getMessage());
         log.info(emailLogInfo);

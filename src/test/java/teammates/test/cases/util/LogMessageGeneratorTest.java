@@ -29,7 +29,7 @@ public class LogMessageGeneratorTest extends BaseTestCase {
         String url = "/randomPage";
         Map<String, String[]> paramMap = new HashMap<>();
         Exception e = new Exception("randomPage");
-        String logMessagePrefix = "TEAMMATESLOG|||Error when getting ActionName for requestUrl : /randomPage"
+        String logMessagePrefix = "MECLOG|||Error when getting ActionName for requestUrl : /randomPage"
                                   + "|||Servlet Action Failure|||true|||Unregistered|||Unknown|||googleIdABC|||Unknown|||";
 
         String generatedMessage = logCenter.generateActionFailureLogMessage(url, paramMap, e, loginUser);
@@ -42,7 +42,7 @@ public class LogMessageGeneratorTest extends BaseTestCase {
         paramMap = generateRequestParamsWithRegKey();
         e = new UnauthorizedAccessException("Unknown Registration Key KeyABC");
         generatedMessage = logCenter.generateActionFailureLogMessage(url, paramMap, e, null);
-        logMessagePrefix = "TEAMMATESLOG|||join|||Servlet Action Failure|||true"
+        logMessagePrefix = "MECLOG|||join|||Servlet Action Failure|||true"
                            + "|||Unknown|||Unknown|||Unknown|||Unknown|||";
 
         assertTrue(generatedMessage.startsWith(logMessagePrefix));
@@ -54,7 +54,7 @@ public class LogMessageGeneratorTest extends BaseTestCase {
         ______TS("Automated task");
         String url = Const.CronJobURIs.AUTOMATED_FEEDBACK_CLOSED_REMINDERS;
         Map<String, String[]> paramMap = new HashMap<>();
-        String logMessage = "TEAMMATESLOG|||feedbackSessionClosedReminders|||feedbackSessionClosedReminders|||true"
+        String logMessage = "MECLOG|||feedbackSessionClosedReminders|||feedbackSessionClosedReminders|||true"
                             + "|||Auto|||Unknown|||Unknown|||Unknown|||auto task|||/auto/feedbackSessionClosedReminders";
 
         String generatedMessage =
@@ -71,7 +71,7 @@ public class LogMessageGeneratorTest extends BaseTestCase {
 
         String url = Const.WebPageURIs.INSTRUCTOR_HOME_PAGE;
         Map<String, String[]> paramMap = new HashMap<>();
-        String logMessage = "TEAMMATESLOG|||instructor/home|||instructor/home|||true|||Unknown|||Unknown"
+        String logMessage = "MECLOG|||instructor/home|||instructor/home|||true|||Unknown|||Unknown"
                             + "|||Unknown|||Unknown|||Not authorized|||/web/instructor/home";
 
         String generatedMessage =
@@ -82,7 +82,7 @@ public class LogMessageGeneratorTest extends BaseTestCase {
 
         url = Const.WebPageURIs.JOIN_PAGE;
         paramMap = generateRequestParamsWithRegKey();
-        logMessage = "TEAMMATESLOG|||join|||join|||true|||Unknown|||Unknown|||"
+        logMessage = "MECLOG|||join|||join|||true|||Unknown|||Unknown|||"
                      + "Unknown|||Unknown|||Not authorized|||/web/join";
 
         generatedMessage =
@@ -93,7 +93,7 @@ public class LogMessageGeneratorTest extends BaseTestCase {
         ______TS("Not google login but with key (success)");
 
         url = Const.WebPageURIs.JOIN_PAGE + "?user=test@email.com&course=1";
-        logMessage = "TEAMMATESLOG|||join|||join|||true|||Unregistered:CS2103|||Joe"
+        logMessage = "MECLOG|||join|||join|||true|||Unregistered:CS2103|||Joe"
                      + "|||Unknown|||student@email|||Join Course|||" + url;
         StudentAttributes student = StudentAttributes
                 .builder("CS2103", "student@email")
@@ -116,7 +116,7 @@ public class LogMessageGeneratorTest extends BaseTestCase {
 
         url = Const.WebPageURIs.STUDENT_HOME_PAGE + "?course=A&user=test";
         paramMap = new HashMap<>();
-        logMessage = "TEAMMATESLOG|||student/home|||student/home|||true|||Unregistered|||Unknown"
+        logMessage = "MECLOG|||student/home|||student/home|||true|||Unregistered|||Unknown"
                      + "|||googleId|||Unknown|||Try student home|||" + url;
         UserInfo userInfo = new UserInfo("googleId");
 
@@ -127,7 +127,7 @@ public class LogMessageGeneratorTest extends BaseTestCase {
 
         ______TS("Google login (Student)");
 
-        String logTemplate = "TEAMMATESLOG|||%1$s|||%1$s|||true|||%2$s|||david"
+        String logTemplate = "MECLOG|||%1$s|||%1$s|||true|||%2$s|||david"
                              + "|||googleId|||david@email.com|||View Result|||/page/%1$s";
 
         url = Const.WebPageURIs.STUDENT_HOME_PAGE;
@@ -187,7 +187,7 @@ public class LogMessageGeneratorTest extends BaseTestCase {
                 .withInstitute("NUS")
                 .withIsInstructor(false)
                 .build();
-        logMessage = "TEAMMATESLOG|||instructor/courses|||instructor/courses|||true|||Instructor(M)|||david"
+        logMessage = "MECLOG|||instructor/courses|||instructor/courses|||true|||Instructor(M)|||david"
                      + "|||anotherGoogleId|||david@email.com|||View comments|||/web/instructor/courses";
 
         // masquerade: userInfo and account don't have the same google id

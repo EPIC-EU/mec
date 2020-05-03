@@ -12,7 +12,7 @@
   <head>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Webpage Compilation - TEAMMATES</title>
+    <title>Webpage Compilation - MEC</title>
 
     <link rel="shortcut icon" href="/favicon.png">
     <link type="text/css" href="<%= FrontEndLibrary.BOOTSTRAP_CSS %>" rel="stylesheet">
@@ -48,8 +48,8 @@
           <tr>
             <td>
               <p>
-                This page lists all of the pages which make up the TEAMMATES app. It is used for manually
-                inspecting the TEAMMATES UI for visual defects. To load this page, you will need to run the test
+                This page lists all of the pages which make up the MEC app. It is used for manually
+                inspecting the MEC UI for visual defects. To load this page, you will need to run the test
                 <strong>MashupPageUiTest.java</strong>.
               </p>
             </td>

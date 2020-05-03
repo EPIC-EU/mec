@@ -65,7 +65,7 @@ public abstract class BaseE2ETestCase extends BaseTestCaseWithBackDoorApiAccess 
      * {@code relativeUrl} must start with a "/".
      */
     protected static AppUrl createUrl(String relativeUrl) {
-        return new AppUrl(TestProperties.TEAMMATES_URL + relativeUrl);
+        return new AppUrl(TestProperties.MEC_URL + relativeUrl);
     }
 
     /**

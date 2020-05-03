@@ -1,6 +1,6 @@
 # Development Workflow
 
-This is the project-wide development workflow for TEAMMATES.
+This is the project-wide development workflow for MEC.
 
 * [Overview](#overview)
 * [Fixing issues](#fixing-issues)
@@ -12,16 +12,16 @@ This is the project-wide development workflow for TEAMMATES.
 <img src="images/workflow.png" width="600">
 
 * This workflow is an adaptation of the [GitHub flow](https://guides.github.com/introduction/flow/).
-* If you need any help regarding the workflow, please [post a new issue in our issue tracker](https://github.com/TEAMMATES/teammates/issues/new).
+* If you need any help regarding the workflow, please [post a new issue in our issue tracker](https://github.com/MEC/teammates/issues/new).
 * It is assumed that the development environment has been correctly set up. If this step has not been completed, refer to [this document](setting-up.md).<br>
-  You are also encouraged to be reasonably familiar with how to [work with your own local copy of TEAMMATES](development.md).
+  You are also encouraged to be reasonably familiar with how to [work with your own local copy of MEC](development.md).
 
 The following are the roles involved:
 * **Dev**: fixing issues
 * **Reviewer**: reviewing pull requests (PRs); usually a core team member
 * **Code quality reviewer**: approving PRs; usually the Project Manager
 
-> *Roles* are related to the development process and they are different from *Positions*, which relate to the organization structure of the TEAMMATES developer community.
+> *Roles* are related to the development process and they are different from *Positions*, which relate to the organization structure of the MEC developer community.
 
 ## Fixing issues
 
@@ -87,7 +87,7 @@ Make the changes to the code, tests, and documentations as needed by the issue.
      [Here](http://chris.beams.io/posts/git-commit/) is a good reference.
    * If you introduce changes that are incompatible with the prevailing data storage schema (afterwards "breaking changes"), a *data migration* is necessary to be done by the core team. If a data migration is necessary to take the issue forward:
      * Make sure that the core team (or at least your reviewer) is aware of this.
-     * Follow [data migration best practices](https://github.com/TEAMMATES/teammates-ops/blob/master/best-practices.md#data-migration).
+     * Follow [data migration best practices](https://github.com/MEC/teammates-ops/blob/master/best-practices.md#data-migration).
      * Your changes should initially work for both the old and new versions of the data schema. It is fine if an unclean hack is necessary for the new code to work under the *old* data schema.
      * Mark clearly in the code which parts are tailored specifically for the old data schema, *especially if an unclean hack is used*.
      * Concurrently or immediately after the breaking changes are merged, you need to create a [client script](development.md#running-client-scripts) to migrate all data following the old schema to the new schema.
@@ -168,7 +168,7 @@ Once a PR is opened, try and complete it within 2 weeks, or at least stay active
 Inactivity for a long period may necessitate a closure of the PR.
 
 Labels `s.*` (status labels) are used to indicate status of PRs.
-Their full descriptions can be viewed under the [labels page](https://github.com/TEAMMATES/teammates/labels).
+Their full descriptions can be viewed under the [labels page](https://github.com/MEC/teammates/labels).
 
 #### Code review
 
@@ -256,4 +256,4 @@ This instruction set will use the issue `Remove unnecessary System.out.printlns 
     e.g. `[#3942] Remove unnecessary System.out.printlns from Java files (#3944)`.
   * Where appropriate (e.g. merging a long-lived feature branch), the ["Rebase and merge"](https://help.github.com/articles/about-pull-request-merges/#rebase-and-merge-your-pull-request-commits) option can be used instead.
   * Apply a `c.*` label to the PR to indicate the type of the PR, if it has not been done before.
-* If the PR necessitates a data migration, [create a data migration issue](https://github.com/TEAMMATES/teammates/issues/new?template=data-migration.md) after merging.
+* If the PR necessitates a data migration, [create a data migration issue](https://github.com/MEC/teammates/issues/new?template=data-migration.md) after merging.

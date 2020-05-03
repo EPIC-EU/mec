@@ -5,28 +5,28 @@
       "name": "Instructor Without Courses",
       "isInstructor": true,
       "email": "iwc@yahoo.tmt",
-      "institute": "TEAMMATES Test Institute 7"
+      "institute": "MEC Test Institute 7"
     },
     "instructorWith2Courses": {
       "googleId": "instructorWith2Courses",
       "name": "Instructor With Two Courses",
       "isInstructor": true,
       "email": "iwithtwoc@yahoo.tmt",
-      "institute": "TEAMMATES Test Institute 5"
+      "institute": "MEC Test Institute 5"
     },
     "instructorOfCourse1": {
       "googleId": "instructorOfCourse1",
       "name": "Instructor of Course 1",
       "isInstructor": true,
       "email": "instr@course1.tmt",
-      "institute": "TEAMMATES Test Institute 7"
+      "institute": "MEC Test Institute 7"
     },
     "instructorOfCourse4": {
       "googleId": "instructorOfCourse4",
       "name": "Instructor of Course 4",
       "isInstructor": true,
       "email": "instr@course4.tmt",
-      "institute": "TEAMMATES Test Institute 9"
+      "institute": "MEC Test Institute 9"
     },
     "instructor1OfTestingSanitizationCourse": {
       "googleId": "CSListUiT.idOfInstructor1OfTestingSanitizationCourse",
@@ -40,7 +40,7 @@
       "name": "Charlie D",
       "isInstructor": false,
       "email": "CCSDetailsUiT.charlie.tmms@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 5"
+      "institute": "MEC Test Institute 5"
     },
     "student1InTestingSanitizationCourse": {
       "googleId": "CSListUiT.student1InTestingSanitizationCourse",

@@ -1,6 +1,6 @@
 # Issue tracker
 
-This document describes how the issue tracker is used by the TEAMMATES project.
+This document describes how the issue tracker is used by the MEC project.
 
 * [Issue lifecycle](#issue-lifecycle)
 * [Issue labels](#issue-labels)
@@ -15,7 +15,7 @@ Colors indicate which roles are involved in which states/transitions.
 ## Issue labels
 
 This portion will only describe the purpose of each *label group* briefly.
-The full description of each individual label can be viewed under the [labels page](https://github.com/TEAMMATES/teammates/labels).
+The full description of each individual label can be viewed under the [labels page](https://github.com/MEC/teammates/labels).
 
 * **Status (`s.*`)**: Classifies issues and PRs based on **status**
   * No `s.*` label and no other labels in issue: issue is yet to be triaged

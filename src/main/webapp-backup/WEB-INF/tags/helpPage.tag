@@ -1,5 +1,5 @@
 <%@ tag trimDirectiveWhitespaces="true" %>
-<%@ tag description="Generic TEAMMATES Help Page" pageEncoding="UTF-8" %>
+<%@ tag description="Generic MEC Help Page" pageEncoding="UTF-8" %>
 <%@ tag import="teammates.common.util.FrontEndLibrary" %>
 <%@ taglib tagdir="/WEB-INF/tags" prefix="t" %>
 <%@ attribute name="jsIncludes" %>
@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEAMMATES</title>
+    <title>MEC</title>
     <link rel="stylesheet" href="<%= FrontEndLibrary.BOOTSTRAP_CSS %>" type="text/css">
     <link rel="stylesheet" href="<%= FrontEndLibrary.BOOTSTRAP_THEME_CSS %>" type="text/css">
     <link rel="stylesheet" href="/stylesheets/teammatesCommon.css" type="text/css">
@@ -29,7 +29,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-2">
-            <span>[<a href="/">TEAMMATES</a>]</span>
+            <span>[<a href="/">MEC</a>]</span>
           </div>
           <div class="col-md-8">
             [hosted on <a href="https://cloud.google.com/appengine/" target="_blank" rel="noopener noreferrer">Google App Engine</a>]

@@ -116,7 +116,7 @@ public final class FieldValidator {
     public static final String EMPTY_STRING_ERROR_INFO =
             "The field '${fieldName}' is empty.";
     public static final String ERROR_INFO =
-            "\"${userInput}\" is not acceptable to TEAMMATES as a/an ${fieldName} because it ${reason}.";
+            "\"${userInput}\" is not acceptable to MEC as a/an ${fieldName} because it ${reason}.";
     public static final String HINT_FOR_CORRECT_FORMAT_FOR_SIZE_CAPPED_POSSIBLY_EMPTY =
             "The value of a/an ${fieldName} should be no longer than ${maxLength} characters.";
     public static final String HINT_FOR_CORRECT_FORMAT_FOR_SIZE_CAPPED_NON_EMPTY =
@@ -140,18 +140,18 @@ public final class FieldValidator {
     public static final String INVALID_NAME_ERROR_MESSAGE =
             ERROR_INFO + " " + HINT_FOR_CORRECT_FORMAT_FOR_INVALID_NAME;
     public static final String TEAM_NAME_IS_VALID_EMAIL_ERROR_MESSAGE =
-            "The field " + TEAM_NAME_FIELD_NAME + " is not acceptable to TEAMMATES as the suggested value for "
+            "The field " + TEAM_NAME_FIELD_NAME + " is not acceptable to MEC as the suggested value for "
                     + TEAM_NAME_FIELD_NAME + " can be mis-interpreted as an email.";
 
     public static final String WHITESPACE_ONLY_OR_EXTRA_WHITESPACE_ERROR_MESSAGE =
-            "The provided ${fieldName} is not acceptable to TEAMMATES as it contains only whitespace "
+            "The provided ${fieldName} is not acceptable to MEC as it contains only whitespace "
             + "or contains extra spaces at the beginning or at the end of the text.";
     public static final String NON_HTML_FIELD_ERROR_MESSAGE =
-            SanitizationHelper.sanitizeForHtml("The provided ${fieldName} is not acceptable to TEAMMATES "
+            SanitizationHelper.sanitizeForHtml("The provided ${fieldName} is not acceptable to MEC "
                                                 + "as it cannot contain the following special html characters"
                                                 + " in brackets: (< > \" / ' &)");
     public static final String NON_NULL_FIELD_ERROR_MESSAGE =
-            "The provided ${fieldName} is not acceptable to TEAMMATES as it cannot be empty.";
+            "The provided ${fieldName} is not acceptable to MEC as it cannot be empty.";
 
     // field-specific error messages
     public static final String HINT_FOR_CORRECT_EMAIL =
@@ -191,11 +191,11 @@ public final class FieldValidator {
     public static final String HINT_FOR_CORRECT_NATIONALITY =
             "The value must be one of the values from the nationality dropdown selector.";
     public static final String NATIONALITY_ERROR_MESSAGE =
-            "\"%s\" is not an accepted " + NATIONALITY_FIELD_NAME + " to TEAMMATES. "
+            "\"%s\" is not an accepted " + NATIONALITY_FIELD_NAME + " to MEC. "
             + HINT_FOR_CORRECT_NATIONALITY;
 
     public static final String ROLE_ERROR_MESSAGE =
-            "\"%s\" is not an accepted " + ROLE_FIELD_NAME + " to TEAMMATES. ";
+            "\"%s\" is not an accepted " + ROLE_FIELD_NAME + " to MEC. ";
 
     public static final String SESSION_VISIBLE_TIME_FIELD_NAME = "time when the session will be visible";
     public static final String RESULTS_VISIBLE_TIME_FIELD_NAME = "time when the results will be visible";

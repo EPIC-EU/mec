@@ -5,56 +5,56 @@
       "name": "Alice Betsy",
       "isInstructor": false,
       "email": "alice.b.tmms@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 2"
+      "institute": "MEC Test Institute 2"
     },
     "benny.c.tmms": {
       "googleId": "benny.c.tmms.sampleData",
       "name": "Benny Charles",
       "isInstructor": false,
       "email": "benny.c.tmms@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 3"
+      "institute": "MEC Test Institute 3"
     },
     "danny.e.tmms": {
       "googleId": "danny.e.tmms.sampleData",
       "name": "Danny Engrid",
       "isInstructor": false,
       "email": "danny.e.tmms@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 4"
+      "institute": "MEC Test Institute 4"
     },
     "emma.f.tmms": {
       "googleId": "emma.f.tmms.sampleData",
       "name": "Emma Farrell",
       "isInstructor": false,
       "email": "emma.f.tmms@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 5"
+      "institute": "MEC Test Institute 5"
     },
     "charlie.d.tmms": {
       "googleId": "charlie.d.tmms.sampleData",
       "name": "Charlie Davis",
       "isInstructor": false,
       "email": "charlie.d.tmms@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 5"
+      "institute": "MEC Test Institute 5"
     },
     "teammates.demo.instructor@demo.course": {
       "googleId": "teammates.demo.instructor",
       "name": "Demo_Instructor",
       "isInstructor": false,
       "email": "teammates.demo.instructor@demo.course",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "francis.g.tmms@demo.course": {
       "googleId": "francis.g.tmms.sampleData",
       "name": "Francis Gabriel",
       "isInstructor": false,
       "email": "francis.g.tmms@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "gene.h.tmms@demo.course": {
       "googleId": "gene.h.tmms.sampleData",
       "name": "Gene Hudson",
       "isInstructor": false,
       "email": "gene.h.tmms@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 6"
+      "institute": "MEC Test Institute 6"
     }
   },
   "courses": {
@@ -3024,17 +3024,17 @@
       "googleId": "alice.b.tmms.sampleData",
       "shortName": "Alice",
       "email": "alice@b.tmt",
-      "institute": "TEAMMATES Test Institute 5",
+      "institute": "MEC Test Institute 5",
       "nationality": "Chinese",
       "gender": "FEMALE",
-      "moreInfo": "I am Alice from TEAMMATES Test Institute 1 and am here at Cambridge for exchange. My Major in TEAMMATES Test Institute 5 is Art History with Minor in Business Administration. I really look forward to a great and fruitful semester ahead!",
+      "moreInfo": "I am Alice from MEC Test Institute 1 and am here at Cambridge for exchange. My Major in MEC Test Institute 5 is Art History with Minor in Business Administration. I really look forward to a great and fruitful semester ahead!",
       "pictureKey": ""
     },
     "danny.e.tmms": {
       "googleId": "danny.e.tmms.sampleData",
       "shortName": "Danny",
       "email": "danny@e.tmt",
-      "institute": "TEAMMATES Test Institute 7",
+      "institute": "MEC Test Institute 7",
       "nationality": "Singaporean",
       "gender": "MALE",
       "moreInfo": "",
@@ -3044,17 +3044,17 @@
       "googleId": "emma.f.tmms.sampleData",
       "shortName": "Emm",
       "email": "emma@f.tmt",
-      "institute": "TEAMMATES Test Institute 8",
+      "institute": "MEC Test Institute 8",
       "nationality": "Indian",
       "gender": "FEMALE",
-      "moreInfo": "I am Emma from TEAMMATES Test Institute 8 India and am here at TEAMMATES Test Institute 5 for exchange. ",
+      "moreInfo": "I am Emma from MEC Test Institute 8 India and am here at MEC Test Institute 5 for exchange. ",
       "pictureKey": ""
     },
     "charlie.d.tmms": {
       "googleId": "charlie.d.tmms.sampleData",
       "shortName": "Char",
       "email": "charlie@d.tmt",
-      "institute": "TEAMMATES Test Institute 8",
+      "institute": "MEC Test Institute 8",
       "nationality": "American",
       "gender": "MALE",
       "moreInfo": "I am Charlie - an exchange student",
@@ -3064,7 +3064,7 @@
       "googleId": "gene.h.tmms.sampleData",
       "shortName": "Gene",
       "email": "gene@h.tmt",
-      "institute": "TEAMMATES Test Institute 5",
+      "institute": "MEC Test Institute 5",
       "nationality": "Nigerian",
       "gender": "FEMALE",
       "moreInfo": "",

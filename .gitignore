@@ -40,7 +40,7 @@ jmeter.log
 src/e2e/lnp/*
 !src/e2e/resources/jmeter/bin
 
-# TEAMMATES
+# MEC
 gradle.properties
 build.properties
 test.properties

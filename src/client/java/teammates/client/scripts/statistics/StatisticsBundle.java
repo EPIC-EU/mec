@@ -68,7 +68,7 @@ public class StatisticsBundle {
         if (email.toLowerCase().endsWith(".tmt")) {
             return true;
         }
-        return institute.contains("TEAMMATES Test Institute");
+        return institute.contains("MEC Test Institute");
     }
 
     /**
@@ -152,7 +152,7 @@ public class StatisticsBundle {
         private Instant statsSince;
 
         public InstitutesStatsMetadata() {
-            // time when TEAMMATES project begins
+            // time when MEC project begins
             statsSince = Instant.parse("2010-01-01T00:00:00.000Z");
         }
     }

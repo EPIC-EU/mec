@@ -12,7 +12,7 @@ import com.google.appengine.api.log.AppLogLine;
 public final class ActivityLogEntry {
     // The following constants describe the positions of the attributes
     // in the log message. i.e
-    // TEAMMATESLOG|||ACTION_NAME|||ACTION_RESPONSE|||TO_SHOW|||ROLE|||NAME|||GOOGLE_ID|||EMAIL
+    // MECLOG|||ACTION_NAME|||ACTION_RESPONSE|||TO_SHOW|||ROLE|||NAME|||GOOGLE_ID|||EMAIL
     // |||MESSAGE(IN HTML)|||URL|||TIME_TAKEN
     private static final int POSITION_OF_ACTION_NAME = 1;
     private static final int POSITION_OF_ACTION_RESPONSE = 2;
@@ -63,9 +63,9 @@ public final class ActivityLogEntry {
      * Generates a log message that will be logged in the server.
      */
     public String generateLogMessage() {
-        // TEAMMATESLOG|||SERVLET_NAME|||ACTION|||TO_SHOW|||ROLE|||NAME|||GOOGLE_ID|||EMAIL|||MESSAGE(IN HTML)|||URL|||ID
+        // MECLOG|||SERVLET_NAME|||ACTION|||TO_SHOW|||ROLE|||NAME|||GOOGLE_ID|||EMAIL|||MESSAGE(IN HTML)|||URL|||ID
         String userRoleSuffix = isMasqueradeUserRole ? Const.ActivityLog.ROLE_MASQUERADE_POSTFIX : "";
-        return String.join(Const.ActivityLog.FIELD_SEPARATOR, Const.ActivityLog.TEAMMATESLOG,
+        return String.join(Const.ActivityLog.FIELD_SEPARATOR, Const.ActivityLog.MECLOG,
                 actionName, actionResponse, Boolean.toString(shouldShowLog), userRole + userRoleSuffix,
                 userName, userGoogleId, userEmail, logMessage, actionUrl, logId);
     }
@@ -154,7 +154,7 @@ public final class ActivityLogEntry {
     }
 
     private static ActivityLogEntry initActivityLogUsingAppLogMessage(AppLogLine appLog, String[] tokens) {
-        // TEAMMATESLOG|||ACTION_NAME|||ACTION_RESPONSE|||TO_SHOW|||ROLE|||NAME|||GOOGLE_ID|||EMAIL
+        // MECLOG|||ACTION_NAME|||ACTION_RESPONSE|||TO_SHOW|||ROLE|||NAME|||GOOGLE_ID|||EMAIL
         // |||MESSAGE(IN HTML)|||URL|||TIME_TAKEN
         String actionName = tokens[POSITION_OF_ACTION_NAME];
         String actionUrl = tokens[POSITION_OF_ACTION_URL];

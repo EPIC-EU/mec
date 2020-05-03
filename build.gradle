@@ -1,7 +1,7 @@
 apply plugin: "idea"
 
 apply plugin: "war"
-// apply plugin: "com.google.cloud.tools.appengine"
+//apply plugin: "com.google.cloud.tools.appengine"
 // see https://github.com/GoogleCloudPlatform/app-gradle-plugin/issues/125
 project.pluginManager.apply com.google.cloud.tools.gradle.appengine.standard.AppEngineStandardPlugin
 

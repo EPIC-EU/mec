@@ -5,42 +5,42 @@
       "name": "IESFPTCourseinstr",
       "isInstructor": true,
       "email": "IESFPTCourseintr@course1.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IESFPTCoursehelper1": {
       "googleId": "IESFPTCoursehelper1",
       "name": "IESFPTCoursehelper1",
       "isInstructor": true,
       "email": "IESFPTCoursehelper1@course1.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IESFPTCoursehelper2": {
       "googleId": "IESFPTCoursehelper2",
       "name": "IESFPTCoursehelper2",
       "isInstructor": true,
       "email": "IESFPTCoursehelper2@course1.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IESFPTCoursehelper3": {
       "googleId": "IESFPTCoursehelper3",
       "name": "IESFPTCoursehelper3",
       "isInstructor": true,
       "email": "IESFPTCoursehelper3@course1.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student1InIESFPTCourse": {
       "googleId": "student1InIESFPTCourse",
       "name": "Student 1 in course IESFPTCourse",
       "isInstructor": false,
       "email": "student1InIESFPTCourse@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "student2InIESFPTCourse": {
       "googleId": "student2InIESFPTCourse",
       "name": "Student 2 in IESFPTCourse",
       "isInstructor": false,
       "email": "student2InIESFPTCourse@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {
@@ -624,7 +624,7 @@
       "googleId": "student1InIESFPTCourse",
       "shortName": "Stud1",
       "email": "i.m.stud1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 3",
+      "institute": "MEC Test Institute 3",
       "nationality": "American",
       "gender": "MALE",
       "moreInfo": "I am just a student :P",

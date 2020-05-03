@@ -109,7 +109,7 @@ public final class Const {
         public static final int NUMBER_OF_HOURS_BEFORE_CLOSING_ALERT = 24;
 
         /**
-         * This is the limit after which TEAMMATES will send error message.
+         * This is the limit after which MEC will send error message.
          *
          * <p>Must be within the range of int.
          */
@@ -158,7 +158,7 @@ public final class Const {
                 + "Simply enroll students using the updated data and existing data will be updated accordingly";
         public static final String COURSE_STUDENT_REMIND =
                 "Email an invitation to the student requesting him/her to join the course using his/her "
-                + "Google Account. Note: Students can use TEAMMATES without ‘joining’, "
+                + "Google Account. Note: Students can use MEC without ‘joining’, "
                 + "but a joined student can access extra features e.g. set up a user profile";
         public static final String COURSE_STUDENT_DELETE =
                 "Delete the student and the corresponding submissions from the course";
@@ -591,7 +591,7 @@ public final class Const {
         public static final String SECTION_NAME_DETAIL = "sectionnamedetail";
 
         public static final String TEAM_NAME = "teamname";
-        public static final String TEAMMATES = "teammates";
+        public static final String MEC = "teammates";
 
         public static final String STATUS_MESSAGES_LIST = "statusMessagesToUser";
         public static final String ERROR = "error";
@@ -1097,7 +1097,7 @@ public final class Const {
      * These are constants that may be used in {@link ActivityLogEntry}.
      */
     public static class ActivityLog {
-        public static final String TEAMMATESLOG = "TEAMMATESLOG";
+        public static final String MECLOG = "MECLOG";
 
         public static final String UNKNOWN = "Unknown";
 

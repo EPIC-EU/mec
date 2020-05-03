@@ -12,7 +12,7 @@ public class TestPropertiesTest extends BaseTestCase {
 
     @Test
     public void testContent() {
-        assertNotNull(TestProperties.TEAMMATES_URL);
+        assertNotNull(TestProperties.MEC_URL);
     }
 
 }

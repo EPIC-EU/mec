@@ -8,18 +8,18 @@ All the instructions in this document work for Linux, OS X, and Windows, with th
 - All the commands are assumed to be run from the root project folder, unless specified otherwise.
 - When a version is specified for any tool, install that version instead of the latest version available.
 
-> If you encounter any problems during the setup process, please refer to our [troubleshooting guide](troubleshooting-guide.md) before posting a help request in our [issue tracker](https://github.com/TEAMMATES/teammates/issues).
+> If you encounter any problems during the setup process, please refer to our [troubleshooting guide](troubleshooting-guide.md) before posting a help request in our [issue tracker](https://github.com/MEC/teammates/issues).
 
 ## Step 1: Obtain your own copy of the repository
 
 1. Install Git.
    1. (Optional but recommended) Install Sourcetree or other similar Git client.
 
-1. Fork our repo at https://github.com/TEAMMATES/teammates. Clone the fork to your hard disk.
+1. Fork our repo at https://github.com/MEC/teammates. Clone the fork to your hard disk.
 
 1. Add a remote name (e.g `upstream`) for your copy of the main repo. Fetch the remote-tracking branches from the main repo to keep it in sync with your copy.
    ```sh
-   git remote add upstream https://github.com/TEAMMATES/teammates.git
+   git remote add upstream https://github.com/MEC/teammates.git
    git fetch upstream
    ```
    **Verification:** Use the command `git branch -r` and the following lines should be part of the output:
@@ -38,7 +38,15 @@ More information can be found at [this documentation](https://help.github.com/ar
 
 ## Step 2: Install necessary tools and languages
 
-These tools are necessary regardless of whether you are developing front-end or back-end:
+**Option A**: Setting up with Docker
+
+> Be warned that while setting up with Docker is much simpler, you need to be familiar with Docker in order to develop in it effectively.
+
+1. Install Docker.
+
+You may skip all the subsequent steps and proceed to the development routine as outlined in [this document](development.md).
+
+**Option B**: Setting up full dev environment
 
 1. Install JDK 1.8.
 1. Install Python 2.7.

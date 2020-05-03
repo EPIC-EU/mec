@@ -5,70 +5,70 @@
       "name": "Teammates Test",
       "isInstructor": true,
       "email": "IFRResponseCommentUiT.instr@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IFRResponseCommentUiT.instr2": {
       "googleId": "IFRResponseCommentUiT.instr2",
       "name": "Teammates Test2",
       "isInstructor": true,
       "email": "IFRResponseCommentUiT.instr2@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IFRResponseCommentUiT.helper1": {
       "googleId": "IFRResponseCommentUiT.helper1",
       "name": "Teammates Helper",
       "isInstructor": true,
       "email": "IFRResponseCommentUiT.helper1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IFRResponseCommentUiT.helper2": {
       "googleId": "IFRResponseCommentUiT.helper2",
       "name": "Teammates Helper",
       "isInstructor": true,
       "email": "IFRResponseCommentUiT.helper2@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IFRResponseCommentUiT.alice.b": {
       "googleId": "IFRResponseCommentUiT.alice.b",
       "name": "Alice B.",
       "isInstructor": false,
       "email": "IFRResponseCommentUiT.alice.b@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IFRResponseCommentUiT.benny.c": {
       "googleId": "IFRResponseCommentUiT.benny.c",
       "name": "Benny C.",
       "isInstructor": false,
       "email": "IFRResponseCommentUiT.benny.c@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IFRResponseCommentUiT.charlie.d": {
       "googleId": "IFRResponseCommentUiT.charlie.d",
       "name": "Charlie D.",
       "isInstructor": false,
       "email": "IFRResponseCommentUiT.charlie.d@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IFRResponseCommentUiT.danny.e": {
       "googleId": "IFRResponseCommentUiT.danny.e",
       "name": "Danny E.",
       "isInstructor": false,
       "email": "IFRResponseCommentUiT.danny.e@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IFRResponseCommentUiT.emily.f": {
       "googleId": "IFRResponseCommentUiT.emily.f",
       "name": "Emily F.",
       "isInstructor": false,
       "email": "IFRResponseCommentUiT.emily.f@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IFRResponseCommentUiT.fred.g": {
       "googleId": "IFRResponseCommentUiT.fred.g",
       "name": "Fred Gabriel",
       "isInstructor": false,
       "email": "IFRResponseCommentUiT.fred.g@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {
@@ -1110,7 +1110,7 @@
         "questionType": "TEXT",
         "questionText": "Some question text. Testing quotation marks '\" Testing unclosed tags </td></div> Testing script injection <script> alert('hello'); </script>"
       },
-      "questionDescription": "<p> Some  question description. </p><a href='https://github.com/TEAMMATES/teammates/issues'>a link</a> attempted script injection <script>alert('hi');</script>",
+      "questionDescription": "<p> Some  question description. </p><a href='https://github.com/MEC/teammates/issues'>a link</a> attempted script injection <script>alert('hi');</script>",
       "questionNumber": 1,
       "giverType": "STUDENTS",
       "recipientType": "OWN_TEAM_MEMBERS_INCLUDING_SELF",
@@ -1756,7 +1756,7 @@
       "recipientSection": "Section A</td></div>'\"",
       "responseDetails": {
         "questionType": "TEXT",
-        "answer": "<p> Some response to text question. </p><a href='https://github.com/TEAMMATES/teammates/issues'>a link</a> attempted script injection <script>alert('hi');</script>"
+        "answer": "<p> Some response to text question. </p><a href='https://github.com/MEC/teammates/issues'>a link</a> attempted script injection <script>alert('hi');</script>"
       }
     },
     "InstructorsAsGiversResponse1": {
@@ -1839,7 +1839,7 @@
       "createdAt": "2026-03-01T23:59:00Z",
       "lastEditorEmail": "IFRResponseCommentUiT.instr@gmail.tmt",
       "lastEditedAt": "2026-03-02T23:59:00Z",
-      "commentText": "<p> Some comment from instructor </p><a href='https://github.com/TEAMMATES/teammates/issues'>a link</a> attempted script injection <script>alert('hi');</script>"
+      "commentText": "<p> Some comment from instructor </p><a href='https://github.com/MEC/teammates/issues'>a link</a> attempted script injection <script>alert('hi');</script>"
     },
     "comment2ToBeEditedByDifferentInstructor": {
       "courseId": "IFRResponseCommentUiT.CS2104",

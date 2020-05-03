@@ -26,7 +26,7 @@
       <div class="col-sm-9">
         <div class="input-group">
           <select class="form-control" [(ngModel)]="timezone" ngbTooltip="The time zone for the course. You should not
-                need to change this as it is auto-detected based on your device settings. TEAMMATES automatically adjusts
+                need to change this as it is auto-detected based on your device settings. MEC automatically adjusts
                 to match the current time offset in your area, including clock changes due to daylight saving time.">
             <option *ngFor="let timezone of timezones" [value]="timezone">{{ timezone }}</option>
           </select>

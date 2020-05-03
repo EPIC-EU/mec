@@ -5,7 +5,7 @@
       "name": "Instructor 1 of Course 1",
       "isInstructor": true,
       "email": "instr1@course1.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "instructor1OfTestingSanitizationCourse": {
       "googleId": "idOfInstructor1OfTestingSanitizationCourse",
@@ -19,28 +19,28 @@
       "name": "Student 1 in course 1",
       "isInstructor": false,
       "email": "student1InCourse1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "noFSStudent": {
       "googleId": "idOfNoFSStudent",
       "name": "No Fs Student",
       "isInstructor": false,
       "email": "noFSStudent@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 5"
+      "institute": "MEC Test Institute 5"
     },
     "noFSStudent2": {
       "googleId": "idOfNoFSStudent2",
       "name": "No Fs Student 2",
       "isInstructor": false,
       "email": "noFSStudent2@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 5"
+      "institute": "MEC Test Institute 5"
     },
     "noFSStudent3": {
       "googleId": "idOfNoFSStudent3",
       "name": "No Fs Student 3",
       "isInstructor": false,
       "email": "noFSStudent3@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 5"
+      "institute": "MEC Test Institute 5"
     },
     "student1InTestingSanitizationCourse": {
       "googleId": "student1InTestingSanitizationCourse",
@@ -337,7 +337,7 @@
       "googleId": "student1InCourse1",
       "shortName": "Stud1",
       "email": "i.m.stud1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 3",
+      "institute": "MEC Test Institute 3",
       "nationality": "American",
       "gender": "MALE",
       "moreInfo": "I am just a student :P",
@@ -347,7 +347,7 @@
       "googleId": "idOfNoFSStudent2",
       "shortName": "Student with no picture",
       "email": "noFSStudent2@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 5",
+      "institute": "MEC Test Institute 5",
       "nationality": "Singaporean",
       "gender": "MALE",
       "moreInfo": "I am a student",
@@ -357,7 +357,7 @@
       "googleId": "idOfNoFSStudent3",
       "shortName": "Full Profile Student",
       "email": "noFSStudent3@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 5",
+      "institute": "MEC Test Institute 5",
       "nationality": "Singaporean",
       "gender": "MALE",
       "moreInfo": "I am a student",

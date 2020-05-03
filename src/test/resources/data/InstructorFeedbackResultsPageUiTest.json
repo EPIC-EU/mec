@@ -5,70 +5,70 @@
       "name": "Teammates Test",
       "isInstructor": true,
       "email": "CFResultsUiT.instr@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "CFResultsUiT.instr2": {
       "googleId": "CFResultsUiT.instr2",
       "name": "Teammates Test2",
       "isInstructor": true,
       "email": "CFResultsUiT.instr2@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "CFResultsUiT.helper1": {
       "googleId": "CFResultsUiT.helper1",
       "name": "Teammates Helper",
       "isInstructor": true,
       "email": "CFResultsUiT.helper1@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "CFResultsUiT.helper2": {
       "googleId": "CFResultsUiT.helper2",
       "name": "Teammates Helper",
       "isInstructor": true,
       "email": "CFResultsUiT.helper2@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "CFResultsUiT.alice.b": {
       "googleId": "CFResultsUiT.alice.b",
       "name": "Alice B.",
       "isInstructor": false,
       "email": "CFResultsUiT.alice.b@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "CFResultsUiT.benny.c": {
       "googleId": "CFResultsUiT.benny.c",
       "name": "Benny C.",
       "isInstructor": false,
       "email": "CFResultsUiT.benny.c@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "CFResultsUiT.charlie.d": {
       "googleId": "CFResultsUiT.charlie.d",
       "name": "Charlie D.",
       "isInstructor": false,
       "email": "CFResultsUiT.charlie.d@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "CFResultsUiT.danny.e": {
       "googleId": "CFResultsUiT.danny.e",
       "name": "Danny E.",
       "isInstructor": false,
       "email": "CFResultsUiT.danny.e@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "CFResultsUiT.emily.f": {
       "googleId": "CFResultsUiT.emily.f",
       "name": "Emily F.",
       "isInstructor": false,
       "email": "CFResultsUiT.emily.f@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "CFResultsUiT.fred.g": {
       "googleId": "CFResultsUiT.fred.g",
       "name": "Fred Gabriel",
       "isInstructor": false,
       "email": "CFResultsUiT.fred.g@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {
@@ -1110,7 +1110,7 @@
         "questionType": "TEXT",
         "questionText": "Some question text. Testing quotation marks '\" Testing unclosed tags </td></div> Testing script injection <script> alert('hello'); </script>"
       },
-      "questionDescription": "<p> Some  question description. </p><a href='https://github.com/TEAMMATES/teammates/issues'>a link</a> attempted script injection <script>alert('hi');</script>",
+      "questionDescription": "<p> Some  question description. </p><a href='https://github.com/MEC/teammates/issues'>a link</a> attempted script injection <script>alert('hi');</script>",
       "questionNumber": 1,
       "giverType": "STUDENTS",
       "recipientType": "OWN_TEAM_MEMBERS_INCLUDING_SELF",
@@ -1756,7 +1756,7 @@
       "recipientSection": "Section A</td></div>'\"",
       "responseDetails": {
         "questionType": "TEXT",
-        "answer": "<p> Some response to text question. </p><a href='https://github.com/TEAMMATES/teammates/issues'>a link</a> attempted script injection <script>alert('hi');</script>"
+        "answer": "<p> Some response to text question. </p><a href='https://github.com/MEC/teammates/issues'>a link</a> attempted script injection <script>alert('hi');</script>"
       }
     },
     "InstructorsAsGiversResponse1": {
@@ -1839,7 +1839,7 @@
       "createdAt": "2026-03-01T23:59:00Z",
       "lastEditorEmail": "CFResultsUiT.instr@gmail.tmt",
       "lastEditedAt": "2026-03-02T23:59:00Z",
-      "commentText": "<p> Some comment from instructor </p><a href='https://github.com/TEAMMATES/teammates/issues'>a link</a> attempted script injection <script>alert('hi');</script>"
+      "commentText": "<p> Some comment from instructor </p><a href='https://github.com/MEC/teammates/issues'>a link</a> attempted script injection <script>alert('hi');</script>"
     },
     "comment2ToBeEditedByDifferentInstructor": {
       "courseId": "CFResultsUiT.CS2104",

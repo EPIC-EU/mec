@@ -5,28 +5,28 @@
       "name": "Teammates Test",
       "isInstructor": true,
       "email": "InsCrsEdit.test@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "InsCrsEdit.coord": {
       "googleId": "InsCrsEdit.coord",
       "name": "Teammates Coord",
       "isInstructor": true,
       "email": "InsCrsEdit.coord@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "InsCrsEdit.instructor": {
       "googleId": "InsCrsEdit.instructor",
       "name": "Teammates Instructor",
       "isInstructor": true,
       "email": "InsCrsEdit.instructor@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "InsCrsEdit.Helper": {
       "googleId": "InsCrsEdit.Helper",
       "name": "Teammates Instructor",
       "isInstructor": true,
       "email": "InsCrsEdit.Helper@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "InsCrsEdit.instructor1OfTestingSanitizationCourse": {
       "googleId": "InsCrsEdit.idOfInstructor1OfTestingSanitizationCourse",

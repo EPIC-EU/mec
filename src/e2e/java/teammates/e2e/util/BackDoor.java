@@ -89,7 +89,7 @@ public final class BackDoor {
      */
     private static ResponseBodyAndCode executeRequest(
             String method, String relativeUrl, Map<String, String[]> params, String body) {
-        String url = TestProperties.TEAMMATES_URL + Const.ResourceURIs.URI_PREFIX + relativeUrl;
+        String url = TestProperties.MEC_URL + Const.ResourceURIs.URI_PREFIX + relativeUrl;
 
         HttpRequestBase request;
         switch (method) {

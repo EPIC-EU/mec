@@ -5,56 +5,56 @@
       "name": "Teammates Test",
       "isInstructor": true,
       "email": "IFSubmitUiT.instr@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IFSubmitUiT.instr2": {
       "googleId": "IFSubmitUiT.instr2",
       "name": "Teammates Test2",
       "isInstructor": true,
       "email": "IFSubmitUiT.instr2@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IFSubmitUiT.instr3": {
       "googleId": "IFSubmitUiT.instr3",
       "name": "Teammates Test3",
       "isInstructor": true,
       "email": "IFSubmitUiT.instr3@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IFSubmitUiT.instr4": {
       "googleId": "IFSubmitUiT.instr4",
       "name": "Teammates Test4",
       "isInstructor": true,
       "email": "IFSubmitUiT.instr4@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IFSubmitUiT.instr5": {
       "googleId": "IFSubmitUiT.instr5",
       "name": "Teammates Test5",
       "isInstructor": true,
       "email": "IFSubmitUiT.instr5@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IFSubmitUiT.charlie.d": {
       "googleId": "IFSubmitUiT.charlie.d",
       "name": "Charlie D.",
       "isInstructor": false,
       "email": "IFSubmitUiT.charlie.d@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IFSubmitUiT.danny.e": {
       "googleId": "IFSubmitUiT.danny.e",
       "name": "Danny E.",
       "isInstructor": false,
       "email": "IFSubmitUiT.danny.e@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     },
     "IFSubmitUiT.emily.f": {
       "googleId": "IFSubmitUiT.emily.f",
       "name": "Emily F.",
       "isInstructor": false,
       "email": "IFSubmitUiT.emily.f@gmail.tmt",
-      "institute": "TEAMMATES Test Institute 1"
+      "institute": "MEC Test Institute 1"
     }
   },
   "courses": {
